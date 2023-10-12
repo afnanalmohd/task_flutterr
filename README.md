@@ -8,10 +8,6 @@ The team used <a href="https://pub.dev/packages/get">Getx</a> framework for stat
 
 
 
-
-
-
-
 ## ✨ Features
 
 ✔ Authentication Implement user signup and  resetting the password.
@@ -27,7 +23,7 @@ The team used <a href="https://pub.dev/packages/get">Getx</a> framework for stat
 
 
 
-## 🚀  Get started  mbshir 
+## 🚀  Getting Started  mbshir 
 
 Before installing , make sure you have the following prerequisites installed:
 
@@ -92,10 +88,14 @@ mbshir
 
 
 
+## 💼 Technologies  
+
+
+
+
 
 ### Languages:
 [![English](https://img.shields.io/badge/Language-English-purple?style=for-the-badge)](README.md)
-
 
 
 
