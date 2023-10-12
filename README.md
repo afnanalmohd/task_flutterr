@@ -103,7 +103,7 @@ is the model which is the structure of the data for a said feature, Lastly scree
 
 
 ### Languages:
-[![English](https://img.shields.io/badge/Language-English-yellow?style=for-the-badge)](README.md)
+[![English](https://img.shields.io/badge/Language-English-purple?style=for-the-badge)](README.md)
 
 
 
