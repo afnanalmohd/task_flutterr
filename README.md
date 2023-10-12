@@ -15,6 +15,21 @@ The main features for this app it is allow user to display status order for cust
 - Display all requests with a timer that starts from 30 seconds and shows the request to the waiter.
 - In settings, user can change the language, display notifications, and log out of the app.
 
+## Installation
+
+Before installing Gallery, make sure you have the following prerequisites installed:
+
+- Flutter: See Flutter's installation guide for instructions on how to install Flutter.
+
+Once you have the prerequisites installed, follow these steps to install Gallery:
+
+1. Clone the Gallery repository to your local machine.
+2. Navigate to the root directory of the project.
+3. Run `flutter pub get` to install the required dependencies.
+4. Run `flutter run` to launch the app.
+
+
+
 
 
 ## Folder Structure
