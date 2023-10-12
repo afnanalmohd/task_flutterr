@@ -2,18 +2,19 @@
 
 # mbshir project
 
-mbshir waiter project was completed by TheGarage mobile application development team. It is built using Flutter, a cross-platform framework that allows it to run on both iOS and Android simultaneously. The team used Getx framework for state management, route management, and dependency injection. It is written using the MVC (Model-View-Controller) Clean Architecture patterns. Additionally, it is single Git repository that contains the source code for frontend applications and libraries, as well as the necessary tooling for managing them.
+mbshir waiter project was completed by <a href="https://thegarage.sa">TheGarage</a>
+ mobile application development team. It is built using Flutter, a cross-platform framework that allows it to run on both iOS and Android simultaneously. The team used Getx framework for state management, route management, and dependency injection. It is written using the MVC (Model-View-Controller) Clean Architecture patterns. Additionally, it is single Git repository that contains the source code for frontend applications and libraries, as well as the necessary tooling for managing them.
 The main features for this app it is allow user to display status order for customer , Also edit order if status not paid and add new order from menu . In addition display all request with timer to served user. Finally mbiser app allow users effortlessly manage and helping them stay organized .
 
 
-## Features
-- Authentication: Implement user signup and password reset with OTP for resetting the password.
-- The feed page displays all the cards from both the order page and the request page.
-- Display all user statuses, such as 'paid,' and order statuses, such as 'prepared' or 'served.'.
-- Display all orders and allow watier to add or edit orders if they have not yet paid.
-- Display the full menu of the restaurant and allow users to create custom orders.
-- Display all requests with a timer that starts from 30 seconds and shows the request to the waiter.
-- In settings, user can change the language, display notifications, and log out of the app.
+## ✨ Features
+✔ Authentication: Implement user signup and password reset with OTP for resetting the password.
+✔ The feed page displays all the cards from both the order page and the request page.
+✔ Display all user statuses, such as 'paid,' and order statuses, such as 'prepared' or 'served.'.
+✔ Display all orders and allow watier to add or edit orders if they have not yet paid.
+✔ Display the full menu of the restaurant and allow users to create custom orders.
+✔ Display all requests with a timer that starts from 30 seconds and shows the request to the waiter.
+✔ In settings, user can change the language, display notifications, and log out of the app.
 
 ## Installation 
 
@@ -73,7 +74,6 @@ mbshir
  <a href="https://github.com/The-Garage-Tech-Team/mbshir/tree/ba8951b81e92183d62e80e72675f5c24207888df/lib/core">Core file</a> directory generally holds foundational code and essential business logic for the application. This may encompass functionalities like binding, routing, localization, themes, and other critical components that are used throughout the app 
 
 
-
 **a. binding:**
 
 <a href="https://github.com/The-Garage-Tech-Team/mbshir/tree/ba8951b81e92183d62e80e72675f5c24207888df/lib/core/binding">Includes the dependency injection for all the controllers.</a>
@@ -95,7 +95,7 @@ mbshir
 <a href="https://github.com/The-Garage-Tech-Team/mbshir/tree/ba8951b81e92183d62e80e72675f5c24207888df/lib/core/theme">All the flutter widgets styles from color to sizes are included in themes folder.</a>
 
 
-### 3. Features
+### Features
 
 The feature folder consists of the features mentioned above as the main folders and each includes five folders controller,
 model, screen, service, and widget. First, the controller and service consists of all the logical solutions for said feature the controller which is the place where you write all the functions you need for your project.
