@@ -1,10 +1,12 @@
 <img align="left" width="100" height="full" src="https://www3.0zz0.com/2023/10/12/08/683415928.png" alt="Ivvestlogo" >
 
-# mbshir project
+# mbshir 
 
 mbshir waiter project was completed by <a href="https://thegarage.sa">TheGarage</a>
  mobile application development team. It is built using <a href="https://docs.flutter.dev/get-started/install"> Flutter</a>.
 The team used <a href="https://pub.dev/packages/get">Getx</a> framework for state management. Additionally, it is single Git repository that contains the source code for frontend applications and libraries, as well as the necessary tooling for managing them.
+
+
 
 
 
@@ -27,7 +29,7 @@ The team used <a href="https://pub.dev/packages/get">Getx</a> framework for stat
 
 
 
-## Installation 
+## 🚀 Get ststrt  mbshir 
 
 Before installing , make sure you have the following prerequisites installed:
 
@@ -39,6 +41,7 @@ Once you have the prerequisites installed, follow these steps to install:
 2. Navigate to the root directory of the project.
 3. Run `flutter pub get` to install the required dependencies.
 4. Run `flutter run` to launch the app.
+
 
 
 
@@ -85,33 +88,12 @@ mbshir
  <a href="https://github.com/The-Garage-Tech-Team/mbshir/tree/ba8951b81e92183d62e80e72675f5c24207888df/lib/core">Core file</a> directory generally holds foundational code and essential business logic for the application. This may encompass functionalities like binding, routing, localization, themes, and other critical components that are used throughout the app 
 
 
-**a. binding:**
-
-<a href="https://github.com/The-Garage-Tech-Team/mbshir/tree/ba8951b81e92183d62e80e72675f5c24207888df/lib/core/binding">Includes the dependency injection for all the controllers.</a>
-
-**b. local:**
-
-<a href="https://github.com/The-Garage-Tech-Team/mbshir/tree/ba8951b81e92183d62e80e72675f5c24207888df/lib/core/localization">Includes translation of all required languag</a>
-
-**c. constant:**
-
-<a href="https://github.com/The-Garage-Tech-Team/mbshir/tree/ba8951b81e92183d62e80e72675f5c24207888df/lib/core/constant">Includes all the strings that will be used often through the app which are the image path's, the endpoint, the external url, the keys for the getStorage and finally the validation format to handel the user input e.g email.</a>
-
-**d. routes:**
-
-<a href="https://github.com/The-Garage-Tech-Team/mbshir/tree/ba8951b81e92183d62e80e72675f5c24207888df/lib/core/route">Includes all the app screens route.</a>
-
-**f. themes:**
-
-<a href="https://github.com/The-Garage-Tech-Team/mbshir/tree/ba8951b81e92183d62e80e72675f5c24207888df/lib/core/theme">All the flutter widgets styles from color to sizes are included in themes folder.</a>
-
-
 ### Features
 
-The feature folder consists of the features mentioned above as the main folders and each includes five folders controller,
-model, screen, service, and widget. First, the controller and service consists of all the logical solutions for said feature the controller which is the place where you write all the functions you need for your project.
-the service it is where the connection and data manipulation of the API is done. The second main folder in a feature folder 
-is the model which is the structure of the data for a said feature, Lastly screen and widget folders for view.
+ All the <a href="https://github.com/The-Garage-Tech-Team/mbshir/tree/main/lib/feature">features</a> in the app are organized into folders named after each feature. Each of these folders contains related files, including 'controller,' 'model,' 'screen,' 'service,' and 'widget
+
+
+
 
 ### Languages:
 [![English](https://img.shields.io/badge/Language-English-purple?style=for-the-badge)](README.md)
