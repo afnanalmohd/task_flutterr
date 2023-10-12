@@ -15,7 +15,7 @@ The main features for this app it is allow user to display status order for cust
 - Display all requests with a timer that starts from 30 seconds and shows the request to the waiter.
 - In settings, user can change the language, display notifications, and log out of the app.
 
-## Installation
+## Installation or To start any project
 
 Before installing , make sure you have the following prerequisites installed:
 
