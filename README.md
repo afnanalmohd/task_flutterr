@@ -17,9 +17,9 @@ The main features for this app it is allow user to display status order for cust
 
 ## Installation
 
-Before installing Gallery, make sure you have the following prerequisites installed:
+Before installing , make sure you have the following prerequisites installed:
 
-- Flutter: See Flutter's installation guide for instructions on how to install Flutter.
+- Flutter: See Flutter's installation guide for instructions on how to <a href="https://docs.flutter.dev/get-started/install">install Flutter</a>.
 
 Once you have the prerequisites installed, follow these steps to install Gallery:
 
