@@ -90,7 +90,7 @@ mbshir
 
 ### Features
 
- All the <a href="https://github.com/The-Garage-Tech-Team/mbshir/tree/main/lib/feature">features</a> in the app are organized into folders named after each feature. Each of these folders contains related files, including 'controller,' 'model,' 'screen,' 'service,' and 'widget
+ All the <a href="https://github.com/The-Garage-Tech-Team/mbshir/tree/main/lib/feature">features</a> in the app are organized into folders named after each feature. Each of these folders contains related files, including controller, model, service, screen, and widget
 
 
 
