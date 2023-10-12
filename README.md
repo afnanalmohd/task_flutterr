@@ -3,7 +3,7 @@
 # mbshir project
 
 mbshir waiter project was completed by <a href="https://thegarage.sa">TheGarage</a>
- mobile application development team. It is built using Flutter, a cross-platform framework that allows it to run on both iOS and Android simultaneously. The team used <a href="https://pub.dev/packages/get">Getx</a> framework for state management, route management, and dependency injection. It is written using the MVC (Model-View-Controller) Clean Architecture patterns. Additionally, it is single Git repository that contains the source code for frontend applications and libraries, as well as the necessary tooling for managing them.
+ mobile application development team. It is built using <a href="https://docs.flutter.dev/get-started/install"> Flutter</a>.The team used <a href="https://pub.dev/packages/get">Getx</a> framework for state management, route management, and dependency injection. It is written using the MVC (Model-View-Controller) Clean Architecture patterns. Additionally, it is single Git repository that contains the source code for frontend applications and libraries, as well as the necessary tooling for managing them.
 
  
 The main features for this app it is allow user to display status order for customer , Also edit order if status not paid and add new order from menu . In addition display all request with timer to served user. Finally mbiser app allow users effortlessly manage and helping them stay organized .
