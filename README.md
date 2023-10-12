@@ -18,7 +18,7 @@ The team used <a href="https://pub.dev/packages/get">Getx</a> framework for stat
 
 ✔ Display all user statuses, such as 'paid,'and  'prepared'.
 
-✔ Display the full menu  and allow users to create custom orders.
+✔ Display the menu  and allow users to create custom orders.
 
 ✔ Display all requests with a timer that starts from 30 seconds .
 
