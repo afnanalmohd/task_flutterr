@@ -21,9 +21,9 @@ Before installing , make sure you have the following prerequisites installed:
 
 - Flutter: See Flutter's installation guide for instructions on how to <a href="https://docs.flutter.dev/get-started/install">install Flutter</a>.
 
-Once you have the prerequisites installed, follow these steps to install Gallery:
+Once you have the prerequisites installed, follow these steps to install:
 
-1. Clone the Gallery repository to your local machine.
+1. Clone the project repository to your local machine.
 2. Navigate to the root directory of the project.
 3. Run `flutter pub get` to install the required dependencies.
 4. Run `flutter run` to launch the app.
