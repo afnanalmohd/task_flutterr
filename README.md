@@ -6,8 +6,8 @@ mbshir waiter project was completed by <a href="https://thegarage.sa">TheGarage<
  mobile application development team. It is built using <a href="https://docs.flutter.dev/get-started/install"> Flutter</a>.
 The team used <a href="https://pub.dev/packages/get">Getx</a> framework for state management. Additionally, it is single Git repository that contains the source code for frontend applications and libraries, as well as the necessary tooling for managing them.
 
-### Languages:
-[![English](https://img.shields.io/badge/Language-English-purple?style=for-the-badge)](README.md)
+
+
 
 
 ## ✨ Features
@@ -113,6 +113,10 @@ The feature folder consists of the features mentioned above as the main folders 
 model, screen, service, and widget. First, the controller and service consists of all the logical solutions for said feature the controller which is the place where you write all the functions you need for your project.
 the service it is where the connection and data manipulation of the API is done. The second main folder in a feature folder 
 is the model which is the structure of the data for a said feature, Lastly screen and widget folders for view.
+
+### Languages:
+[![English](https://img.shields.io/badge/Language-English-purple?style=for-the-badge)](README.md)
+
 
 
 
