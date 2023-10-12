@@ -6,6 +6,9 @@ mbshir waiter project was completed by <a href="https://thegarage.sa">TheGarage<
  mobile application development team. It is built using <a href="https://docs.flutter.dev/get-started/install"> Flutter</a>.
 The team used <a href="https://pub.dev/packages/get">Getx</a> framework for state management. Additionally, it is single Git repository that contains the source code for frontend applications and libraries, as well as the necessary tooling for managing them.
 
+### Languages:
+[![English](https://img.shields.io/badge/Language-English-purple?style=for-the-badge)](README.md)
+
 
 ## ✨ Features
 ✔ Authentication: Implement user signup and password reset with OTP for resetting the password.
@@ -21,6 +24,8 @@ The team used <a href="https://pub.dev/packages/get">Getx</a> framework for stat
 ✔ Display all requests with a timer that starts from 30 seconds and shows the request to the waiter.
 
 ✔ In settings, user can change the language, display notifications, and log out of the app.
+
+
 
 
 ## Installation 
@@ -111,10 +116,6 @@ is the model which is the structure of the data for a said feature, Lastly scree
 
 
 
-
-
-### Languages:
-[![English](https://img.shields.io/badge/Language-English-purple?style=for-the-badge)](README.md)
 
 
 
