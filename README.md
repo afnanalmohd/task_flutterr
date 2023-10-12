@@ -6,7 +6,7 @@ mbshir waiter project was completed by TheGarage mobile application development 
 The main features for this app it is allow user to display status order for customer , Also edit order if status not paid and add new order from menu . In addition display all request with timer to served user. Finally mbiser app allow users effortlessly manage and helping them stay organized .
 
 
-## ✨ Features
+## Features
 - Authentication: Implement user signup and password reset with OTP for resetting the password.
 - The feed page displays all the cards from both the order page and the request page.
 - Display all user statuses, such as 'paid,' and order statuses, such as 'prepared' or 'served.'.
@@ -15,7 +15,7 @@ The main features for this app it is allow user to display status order for cust
 - Display all requests with a timer that starts from 30 seconds and shows the request to the waiter.
 - In settings, user can change the language, display notifications, and log out of the app.
 
-## Installation or  ⚙ To start  project
+## Installation 
 
 Before installing , make sure you have the following prerequisites installed:
 
@@ -31,10 +31,10 @@ Once you have the prerequisites installed, follow these steps to install:
 
 
 
-
 ## Folder Structure
 
-The Project follows the MVC design pattern with Getx state management. the main folders are: common core and features.
+ Project follows the Model-View-Controller (MVC) design pattern and uses GetX for state management. The primary directory structure consists of three main folders: common, core, and features.
+
 ```bash
 mbshir
 ├─ ios/
