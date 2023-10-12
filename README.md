@@ -91,6 +91,32 @@ mbshir
 ## 💼 Technologies  
 
 
+| library  |         Usage 
+| :-------- | :------------------------- |
+| Get |  State management , navigation, dependency management |
+| Timer Count Down | Highly customizable countdown and onFinished callbacks |
+| Stop Watch Timer | Simple CountUp / CountDown timer |
+| Lottie| Animations |
+| Google Fonts|  fonts from Google|
+
+
+
+
+Timer Count Down
+A highly customizable countdown widget for Flutter, with support
+for custom styling, intervals, and onFinished callbacks.
+
+Stop Watch Timer
+Simple CountUp / CountDown timer.
+
+Lottie
+A mobile library for Android and iOS that parses
+Adobe After Effects animations exported as json with Bodymovin
+and renders them natively on mobile!
+
+Google Fonts
+A Flutter package to use fonts from fonts.google.com.
+
 
 
 
@@ -99,6 +125,7 @@ mbshir
 
 
 
+## Demo app
 
 
 
