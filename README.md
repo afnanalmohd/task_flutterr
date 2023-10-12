@@ -6,7 +6,7 @@ mbshir waiter project was completed by TheGarage mobile application development 
 The main features for this app it is allow user to display status order for customer , Also edit order if status not paid and add new order from menu . In addition display all request with timer to served user. Finally mbiser app allow users effortlessly manage and helping them stay organized .
 
 
-##✨ Features
+## ✨ Features
 - Authentication: Implement user signup and password reset with OTP for resetting the password.
 - The feed page displays all the cards from both the order page and the request page.
 - Display all user statuses, such as 'paid,' and order statuses, such as 'prepared' or 'served.'.
