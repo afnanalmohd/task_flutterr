@@ -9,12 +9,19 @@ The team used <a href="https://pub.dev/packages/get">Getx</a> framework for stat
 
 ## ✨ Features
 ✔ Authentication: Implement user signup and password reset with OTP for resetting the password.
+
 ✔ The feed page displays all the cards from both the order page and the request page.
+
 ✔ Display all user statuses, such as 'paid,' and order statuses, such as 'prepared' or 'served.'.
+
 ✔ Display all orders and allow watier to add or edit orders if they have not yet paid.
+
 ✔ Display the full menu of the restaurant and allow users to create custom orders.
+
 ✔ Display all requests with a timer that starts from 30 seconds and shows the request to the waiter.
+
 ✔ In settings, user can change the language, display notifications, and log out of the app.
+
 
 ## Installation 
 
