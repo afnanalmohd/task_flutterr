@@ -63,10 +63,12 @@ mbshir
 
 
 ```
-### 1. Common:
-<a href="https://github.com/The-Garage-Tech-Team/mbshir/tree/ba8951b81e92183d62e80e72675f5c24207888df/lib/common">Includes the shared files between features.</a>
+### Common:
 
-### 2. Core
+ <a href="https://github.com/The-Garage-Tech-Team/mbshir/tree/ba8951b81e92183d62e80e72675f5c24207888df/lib/common"> Common</a> is directory typically contains code shared throughout the application. Common elements found here include utility classes and custom widgets.
+
+
+### Core
 
 <a href="https://github.com/The-Garage-Tech-Team/mbshir/tree/ba8951b81e92183d62e80e72675f5c24207888df/lib/core">The core folder consists of the following folders.</a>
 
