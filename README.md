@@ -1,16 +1,77 @@
-# task_flutter
+<img align="left" width="100" height="full" src="https://www3.0zz0.com/2023/10/12/08/683415928.png" alt="Ivvestlogo" >
 
-A new Flutter project.
+# mbshir project
 
-## Getting Started
+mbshir waiter project was completed by TheGarage mobile application development team. It is built using Flutter, a cross-platform framework that allows it to run on both iOS and Android simultaneously. The team used Getx framework for state management, route management, and dependency injection. It is written using the MVC (Model-View-Controller) Clean Architecture patterns. Additionally, it is single Git repository that contains the source code for frontend applications and libraries, as well as the necessary tooling for managing them.
 
-This project is a starting point for a Flutter application.
+The main features for this app it is allow user to display status order for customer , Also edit order if status not paid and add new order from menu . In addition display all request with timer to served user. Finally mbiser app allow users effortlessly manage and helping them stay organized .
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
+## Folder Structure
+
+The Project follows the MVC design pattern with Getx state management. the main folders are: common core and features.
+```bash
+mbshir
+├─ ios/
+├─ android/
+├─ assets/
+│  ├─ images/
+│  ├─ icons/
+│  ├─ lottie/
+├─ lib/
+│  ├─ common/
+│  ├─ core/
+│  │  ├─ binding/
+│  │  ├─ constant/
+│  │  ├─ localization/
+│  │  ├─ route/
+│  │  ├─ theme/
+│  ├─ feature/
+│  │  ├─ controller/
+│  │  ├─ service/
+│  │  ├─ model/
+│  │  ├─ screen/
+│  │  ├─ widget/
+│  ├─ main.dart
+├─ .env
+├─ pubspec.yaml
+
+
+```
+### 1. Common:
+<a href="https://github.com/The-Garage-Tech-Team/mbshir/tree/ba8951b81e92183d62e80e72675f5c24207888df/lib/common">Includes the shared files between features.</a>
+
+### 2. Core
+
+<a href="https://github.com/The-Garage-Tech-Team/mbshir/tree/ba8951b81e92183d62e80e72675f5c24207888df/lib/core">The core folder consists of the following folders.</a>
+
+**a. binding:**
+
+<a href="https://github.com/The-Garage-Tech-Team/mbshir/tree/ba8951b81e92183d62e80e72675f5c24207888df/lib/core/binding">Includes the dependency injection for all the controllers.</a>
+
+**b. local:**
+
+<a href="https://github.com/The-Garage-Tech-Team/mbshir/tree/ba8951b81e92183d62e80e72675f5c24207888df/lib/core/localization">Includes translation of all required languag</a>
+
+**c. constant:**
+
+<a href="https://github.com/The-Garage-Tech-Team/mbshir/tree/ba8951b81e92183d62e80e72675f5c24207888df/lib/core/constant">Includes all the strings that will be used often through the app which are the image path's, the endpoint, the external url, the keys for the getStorage and finally the validation format to handel the user input e.g email.</a>
+
+**d. routes:**
+
+<a href="https://github.com/The-Garage-Tech-Team/mbshir/tree/ba8951b81e92183d62e80e72675f5c24207888df/lib/core/route">Includes all the app screens route.</a>
+
+**f. themes:**
+
+<a href="https://github.com/The-Garage-Tech-Team/mbshir/tree/ba8951b81e92183d62e80e72675f5c24207888df/lib/core/theme">All the flutter widgets styles from color to sizes are included in themes folder.</a>
+
+
+### 3. Features
+
+The feature folder consists of the features mentioned above as the main folders and each includes five folders controller,
+model, screen, service, and widget. First, the controller and service consists of all the logical solutions for said feature the controller which is the place where you write all the functions you need for your project.
+the service it is where the connection and data manipulation of the API is done. The second main folder in a feature folder 
+is the model which is the structure of the data for a said feature, Lastly screen and widget folders for view.
