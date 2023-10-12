@@ -46,7 +46,7 @@ Once you have the prerequisites installed, follow these steps to install:
 
 
 
-## Folder Structure
+## 🔎 Folder Structure
 
 This Project follows the Model-View-Controller (MVC) design pattern and uses GetX for state management. The primary directory structure consists of three main folders: Common, Core, and Features.
 
