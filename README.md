@@ -8,8 +8,6 @@ The main features for this app it is allow user to display status order for cust
 
 
 
-
-
 ## Folder Structure
 
 The Project follows the MVC design pattern with Getx state management. the main folders are: common core and features.
@@ -75,3 +73,13 @@ The feature folder consists of the features mentioned above as the main folders 
 model, screen, service, and widget. First, the controller and service consists of all the logical solutions for said feature the controller which is the place where you write all the functions you need for your project.
 the service it is where the connection and data manipulation of the API is done. The second main folder in a feature folder 
 is the model which is the structure of the data for a said feature, Lastly screen and widget folders for view.
+
+
+
+
+
+### Languages:
+[![English](https://img.shields.io/badge/Language-English-yellow?style=for-the-badge)](README.md)
+
+
+
