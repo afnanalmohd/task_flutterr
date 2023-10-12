@@ -11,9 +11,8 @@ The team used <a href="https://pub.dev/packages/get">Getx</a> framework for stat
 
 
 ## ✨ Features
-✔ Authentication: Implement user signup and password reset with OTP for resetting the password.
 
-✔ The feed page displays all the cards from both the order page and the request page.
+✔ Authentication: Implement user signup and password reset with OTP for resetting the password.
 
 ✔ Display all user statuses, such as 'paid,' and order statuses, such as 'prepared' or 'served.'.
 
