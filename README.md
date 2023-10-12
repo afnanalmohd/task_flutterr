@@ -102,23 +102,6 @@ mbshir
 
 
 
-Timer Count Down
-A highly customizable countdown widget for Flutter, with support
-for custom styling, intervals, and onFinished callbacks.
-
-Stop Watch Timer
-Simple CountUp / CountDown timer.
-
-Lottie
-A mobile library for Android and iOS that parses
-Adobe After Effects animations exported as json with Bodymovin
-and renders them natively on mobile!
-
-Google Fonts
-A Flutter package to use fonts from fonts.google.com.
-
-
-
 
 ### Languages:
 [![English](https://img.shields.io/badge/Language-English-purple?style=for-the-badge)](README.md)
