@@ -21,7 +21,7 @@
 
 
 
- -  [**Actions**](#action)
+ -  [**Actions**](##Action)
  - **Communication**.
  - **Containment**.
  - **Navigation**.
@@ -32,8 +32,7 @@
 
 
 
-## 
- ![action](https://github.com/The-Garage-Tech-Team/design_system_flutter/assets/53023171/bbf633b9-c7f6-4307-9365-f14fc37ddab4)
+## Action
 
 # Common Buttons
 
