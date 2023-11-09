@@ -23,6 +23,7 @@
 
  -  [actions](#action_buttontheme)
  -  [actions](#purple_hearttheme)
+ -  [Section `Actions`](#action)
  - **Communication**.
  - **Containment**.
  - **Navigation**.
@@ -35,6 +36,7 @@
 
 ## :action_button:Action
 ## :purple_heart:Theme
+## Feature <a id="action"></a>.
 
 # Common Buttons
 
