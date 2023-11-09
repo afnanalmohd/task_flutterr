@@ -1,607 +1,1285 @@
-# vscode-extensions [Best]
 
-<div>
-    <img src="https://readme-typing-svg.demolab.com/?pause=1&size=50&color=f75c7e&center=True&width=1200&height=120&vCenter=True&lines=Click+the+⭐+Star+please .;Any+questions+can+be+asked+in+Issue." />
-</div>
-
-[En README](README.md) | [中文版說明檔](README.zh-TW.md)
-
----
-
-* Record and share vscode extensions, including improving development efficiency, key points, theme beautification, etc. . .
-* This project will provide detailed instructions for each extension, hoping to help coders all over the world code happily together: emoji_sunglasses:
-* This project provides ["**extended sharing area**"](./share/README.md), you can submit interested extensions here.
-* If you want **Pull Request**, just update `README.md`
-
-    ([`README.zh-TW.md`](https://github.com/Lin-jun-xiang/action-translate-markdown/tree/main) will be automatically updated through CI)
-
-* Extended Summary:
-     - [Quickly download multiple extensions (read this first)](#starquickly-download-multiple-extensions)
-     - [transparent editor](#snowflaketransparent-editor)
-    - [theme](#purple_hearttheme)
-     - [editor and beautifying environment](#yellow_heart-beautifying-editor-and-editing-environment)
-     - [must have and highly recommended](#green_heart-must-have-highly-recommended)
-    - [Big Data and AI Engineer-Jupyter(Python)](#star2big-data-ai-engineer---jupyter-python)
-     - [Git and Markdown helper](#wavegitmarkdown-support)
-     - [Remote WSL and Dev Container](#computer-remote-wsl--dev-container)
-     - [Remote-SSH: How to connect VSCode to Colab?](#computer-remote-ssl)
-     - [Fixer](#wrenchfixer-fix-vscode-corrupt)
-     - [Copilot Assist](#codeium)
-     - [Community Shares and Contributions](./share/README.md)
-
-<details>
-<summary>Vscode Common Commands</summary>
-
-* Using the vscode command panel can increase the development speed .
-
-* Open command panel: `ctrl+shift+p`
-
-* Common commands:
-    * `File: Open Folder`: open folder as workspace .
-    * `Preferences: Color Theme`: select color theme for editor .
-    * `Preferences: File Icon Theme`: select icon theme for file .
-    * `Developer: Reload Window`: Reload VSCode window .
-
-</details>
-
----
-
-## :star:Quickly download multiple extensions
-I will introduce a lot of vscode extensions later . There is a trick here, you can quickly download many extensions without looking for . one by one.
-
-:warning: If you have high version vscode, you can jump over the following method, just go to [here](#star-quickly-download-multiple-extensions-for-new-version-vscode)
-
-If you want to transfer the extension of the old computer to the new computer in the future, you can also use this method :kissing:
-
-* You can download the `.ps1` file that comes with this project, follow the third step below to exclude the unnecessary extension .
-* In the `extensions.ps1` file, each extension has a comment ., please delete the unnecessary . before executing the installation command
-
-> method:
->
-> 1. Access all the extensions of vscode on the current computer, the output is text . Enter the following command in the terminal (`powershell`):
-> `code --list-extensions | ForEach-Object {"code --install-extension $_"} > extensions.ps1`
->
-> 2. After the command is executed, the `extensions.ps1` file will be obtained in the current directory (the file name is defined when the command is executed) .
->
-> 3. Enter the following command in the terminal (`powershell`) of the new computer:
-> `./extensions.ps1`
->
-> 4. download complete
-> <img src="https://user-images.githubusercontent.com/63782903/226086537-1dddd375-3206-44db-8208-17715d70c744.png" width="60%">
-
-<details>
-<summary>Find Missing Extensions</summary>
-
-* [`extensions-compare`](./extensions_compare/)
-
-* Compare two `.ps` files to find **differences** between two extension records .
-
-* Usage (choose one of the following):
-    * `compare.py`
-         run `Python` script .
-
-        <img src="img/2023-04-19-11-06-37.png">
-    * `compare.sh`
-         runs `./extensions_compare/compare.sh` etc . on `git bash, wsl, or linux`
-
-        <img src="img/2023-04-19-11-07-16.png">
-</details>
-
-### :star: Quickly download multiple extensions (for new version vscode)
-
-Just click the `Profile`, then you can import or export the extensions.
-
-<img src='img/2023-07-07-21-22-20.png' width='60%' />
-
----
-
-## :snowflake:Transparent editor
-The transparency effect is amazing.
-
-It can be used as a lazy tool (code while watching the video~) .
-
-You can use your own desktop background while coding and watching **Gura** .
-
-### GlassIt-VSC
-
-> Usage:
-`ctrl+alt+z`: desaturation (transparency)
-`ctrl+alt+c`: increase saturation (opacity)
-
-<img src="img/2023-03-20-20-35-03.png" width="60%">
-
-<a href="#top">Back to top</a>
-
----
-
-## :purple_heart:Theme
-
-The biggest reason to use vscode is to have `eye-catching`, `elegant`, `comfortable`, `pleasant editing interface`. Only a good-looking editing environment can make the coder willing to type on the keyboard~:sunglasses:
-
-Next, I will share my favorite topics with you one by one (the following examples are based on Python, and different languages may have slight differences)
-
-oh! Wait a minute, here is a quick way to switch themes . After all, you may want to change themes every day~~
-
-> Quick switch theme
->
-> "ctrl+shift+p": Open vscode command input box
->
-> "Preferences:Color Theme": Enter and choose the theme you want
-
-### Arc Dark for Visual Studio Code
-* The theme is a bit similar to the dark theme of Visual Studio Code, but the overall tone is softer, similar to the color of macarons.
-
-<img src="img/2023-03-25-16-10-51.png" width="60%">
-
-### ButterTheme
-* As the name suggests, this is an eye-catching *milk yellow* theme
-* A very rare theme (to put it bluntly, not many people use it), but the author likes it very much
-* If you can't find this theme, <a href="https://marketplace.visualstudio.com/items?itemName=Levampire.Buttur" target="_blank">link</a>
-
-<img src="img/2023-03-17-14-36-15.png" width="60%">
-
-### Coder200
-* This time I don't know ... just by looking at the name
-* Rare theme, full of *orange*, so sexy~:flushed:
-
-<img src="img/2023-03-17-14-44-30.png" width="60%">
-
-
-### doom-emacs-theme
-* Simple style
-
-<image src="https://user-images.githubusercontent.com/63782903/232356902-fc57dbc3-f650-4c41-b5a6-f33497954cc7.png" width="60%" />
-
-### Dracula Official
-*very famous, *pink* and *purple* vampire colors
-
-<img src="img/2023-03-17-14-51-36.png" width="60%">
-
-### Github Theme
-* One of the classic themes that cannot be ignored
-
-<img src="img/2023-06-06-15-03-29.png" width="60%">
-
-### Hydra Theme for VS-Code
-* Black and red theme, exuding a strong sense of high-tech aesthetics.
-  
-<img src="img/2023-08-16-15-20-03.png" width="60%">
-
-### LaserWave
-* A *purple pink* theme with a sunset feel
-
-<img src="img/2023-03-17-20-17-56.png" width="60%">
-
-### Moegi Theme
-* Gentle and charming theme
-
-<img src="img/2023-03-17-20-20-13.png" width="60%">
-
-### Material Dark
-* One of the classic themes that cannot be ignored
-
-<img src="img/2023-03-17-20-37-24.png" width="60%">
-
-### One Dark Pro
-* One of the classic themes that cannot be ignored
-
-<img src="img/2023-03-17-20-36-31.png" width="60%">
-
-### Panda Theme
-* *Lake Green* :panda_face: Top notch themes:
-* This theme is really cool!
-
-<img src="img/2023-03-17-20-21-23.png" width="60%">
-
-### Simple Dark
-* The background is very dark, the text color will not be too dazzling
-
-<img src="img/2023-03-17-20-23-37.png" width="60%">
-
-### Skyline
-* Blue lovers must use it :blue_heart:
-
-<img src="img/2023-03-17-20-25-15.png" width="60%">
-
-### SynthWave '84
-* Super high-tech, dazzling fluorescent theme: emoji_sunglasses:
-* Remember to turn on the fluorescent effect after selecting the theme (you can also match it with other theme colors: emoji_emoji_fu :)
-
-> Enable fluorescence mode:
->
-> 1. "ctrl+shift+p": Open the VS Code command input box
->
-> 2. "Synthwave '84: Enable/Disable Neon Dreams": Enable/Disable Neon Dreams (see picture)
->
-> 3. "Restart": Restart VS Code
-
-<img src="img/2023-03-17-20-28-44.png" width="60%">
-
-<img src="img/2023-03-17-20-27-06.png" width="60%">
-
-### Tearz
-* A bit similar to the previously launched Moe Wood theme
-*But this *purple* really attracts the author~
-
-<img src="img/2023-03-17-20-33-32.png" width="60%">
-
-### Vuesion Theme
-* Simple pink, looks very comfortable
-
-<img src="img/2023-05-18-14-20-10.png" width="60%">
-
-### Xcode Theme
-* One of the classic themes that cannot be ignored
-
-<img src="img/2023-03-17-20-35-39.png" width="60%">
-
-<a href="#top">Back to top</a>
-
----
-## :yellow_heart: Beautifying editor and editing environment
-After finishing the decoration, our editor will introduce the plug-ins that can not only increase the aesthetic feeling, but also improve work efficiency~
-
-### Color Highlight
-* If you are a **front-end** engineer or **data analyst**, and often need to do **visual** work, be sure to download this!
-* When editing, as long as there is **hexadecimal** color expression, you can see the color very clearly (you don’t need to run the code if the color looks good) .
-
-<img src="img/2023-03-17-20-48-11.png" width="60%">
-
-### Material Theme Icons
-* Different file extensions have different icons
-* Not only looks good but can find files faster.
-
-<img src="img/2023-03-17-20-51-07.png" width="60%">
-
-### vscode-icons
-* Slightly different from Material theme icons
-* The author prefers to use this~
-
-<img src="img/2023-03-17-20-53-26.png" width="60%">
-
-<a href="#top">Back to top</a>
-
----
-## :green_heart: Must-have, highly recommended
-The plugins to be introduced below are really easy to use!
-
-Most of them can improve development efficiency, don't miss: emoji_heart_eyes:
-
-### autoDocstring - Python Docstring Generator
-* This plugin was introduced by . for Python developers
-* Use shortcut keys to quickly generate **Docstring** style comments .
-* Describe the purpose, parameters, return value and other information of the function.
-* Support different **Docstring** styles, such as google, sphinx, numpy, etc. . .
-
-> How to use: Press the key below where you want to generate comments
-Windows: `ctrl+shift+2`
-Mac: `cmd+shift+2`
-
-<img src="img/2023-03-17-21-07-10.png" width="60%">
-
-### Code Runner
-* I believe that friends who have used VSCode should be familiar with this plugin! ?
-* Allow VSCode to execute the program with one click .
-* Support multiple languages, such as C, C++, Java, JavaScript, PHP, Python, Perl...etc.
-
-<img src="img/2023-03-17-20-59-33.png" width="60%">
-
-### Comment Divider
-* Use shortcut keys to generate beautiful **comment styles** .
-* As shown in the figure below, you can see two styles: `Shift+Alt+x` and `Alt+x`.
-
-<img src="img/2023-03-17-21-03-04.png" width="60%">
-
-### Draw.io Integration
-* Flow chart drawing tool
-* When designing a project, you can use this plugin to plan the feasibility .
-* Can be used as a note taking tool .
-* Support many common modes, such as Google cloud platform representative function symbol (as shown in the figure).
-
-<img src="img/2023-03-17-21-14-00.png" width="60%">
-
-### Isort
-* This is intended for use by Python developers.
-* Automatically formats imports.
-* After downloading, add the following code to `settings.json`:
-
-    ```
-    "isort.args":["--profile", "black"]
-    ```
-
-* Next, open `Keyboard Shortcuts` and set a shortcut (the author has bound it to `F12`):
-
-  <img src="img/2023-08-16-15-25-55.png" width="60%">
-
-* Use the shortcut `F12` to automatically format Python imports.
-
-<img src="img/2023-08-16-15-27-41.png" width="60%">
-
-### Path Intellisense
-* It's really cool to have this plugin when coding :kissing_heart:
-* Coder suitable for frequently reading and writing files .
-* When writing the path, it will automatically list the files under the path you want to find .
-
-<img src="img/2023-03-17-21-17-09.png" width="60%">
-
-<a href="#top">Back to top</a>
-
----
-
-## :star2:Big data, AI engineer - Jupyter (Python)
-The plugins presented here are really powerful!
-
-The author knows that many people who use Python are not used to using vscode for many reasons:
-* Interactive mode
-* View variable data type and variable value (just like in Spyder, Pycharm)
-* Execute the code line by line, and execute part of the code (really very practical, better than Debug~:heart_eyes:)
-
-The plugin provides the following features:
-* :pushpin:**interactive mode**
-* :pushpin:** View variable data type and variable value** (such as Spyder, Pycharm)
-* :pushpin: **Execute code line by line** and **Execute part of code** (really useful, better than debugging~:heart_eyes :)
-
-> If you can understand Chinese, it is recommended to spend 5 minutes to quickly learn how to use the Jupyter plug-in (see <a href="https://www.bilibili.com/video/BV1Bg411J78F/" target="_blank" >link</a>)
-
-> Usage:
->
-> :bulb: Download the following plug-ins (some may not be used, forget it~)
->
-> `Jupyter`, `Jupyter keymap`, `Jupyter slide show`, `Jupyter cell tag`, `Jupyter notebook renderes`, `vs code jupyter notebook previewer`
->
-><img src="img/2023-03-17-21-50-07.png" width="40%">
-
-> :bulb:**Execute code in interactive mode**
->
-> 1. right click . in script
-> 2. select `Run Current File in Interactive Window`
-(It is recommended to set a VS Code shortcut key, I set it to `F10`).
-> 3 . `Interactive` window will appear after execution of .
->
-><img src="img/2023-03-17-21-54-03.png" width="40%">
-><img src="img/2023-03-17-21-57-03.png" width="40%">
-
-> :bulb:**View variable data type and variable value** (need to be in interactive mode)
->
-> Click *Variables*. in the interactive window
->
-><img src="img/2023-03-20-13-17.PNG" width="60%">
-
-> :bulb: **Execute line by line or partly**
->
-> 1. Select the code to execute (can be one or more lines) .
-> 2. right click on selected code .
-> 3 . SELECT * run select/row in interactive window * .
->
-><img src="img/2023-03-17-22-04-33.png" width="60%">
-
-<a href="#top">Back to top</a>
-
----
-
-## :wave:Git、Markdown Support
-The plugins described below are essential for developers working on Github or Gitlab projects .
-
-### GitLens
-* After downloading, the script code will show **which** parts were **modified**, **who** made the changes, **when** the . was modified
-* Note that the .`170` line on the right side of the screen has a green line indicating that there is a new code record (red means deleting the code) .
-* Remember to track the project with `git` for this plugin to work .
-
-<img src="img/2023-03-17-22-08-15.png" width="60%">
-
-<details>
-<summary>More for GitLens</summary>
-
-* Compare two commits with detailed **differences**
-    * `COMMITS`: Select the commit to compare with HEAD (step1~2)
-    * `SEARCH & COMPARE`: select changed files (step 3)
-    * `diff`: correct file is HEAD (step 4)
-
-        <img src="img/git_diff.PNG" width="60%" />
-
-</details>
-
-### Markdown All in One
-* Using Markdown syntax in the vscode editor.
-* It provides automatic generation of table of contents.
-* It offers special shortcuts for Markdown, such as using `Ctrl+B` for bold formatting.
-
-<img src='img/2023-06-27-20-42-05.png' width='60%' />
-
-### Markdown Preview Enhanced
-* When writing `.md` file, you can preview the result .
-* Press `ctrl+k`, then `v` to open preview window .
-* The middle of the figure below is the `.md` file, and the right is the preview window .
-
-
-<img src="img/2023-03-17-22-15-20.png" width="60%">
-
-### Paste Image
-* Paste images directly from the clipboard into markdown/asciidoc (or other files)!
-* Usage
-    * screenshot to clipboard
-    * Use default keybindings: `Ctrl+Alt+V` (`Cmd+Alt+V` on Mac).
-    * images will be saved in the folder containing the currently edited file
-    * Relative paths will be pasted to the current edited file
-
-* You can configure `imagePath` in settings.
-
-    <img src="img/2023-05-27-15-53-03.png" width="60%" />
-
-<a href="#top">Back to top</a>
-
-
----
-
-## :computer: Remote WSL & Dev Container
-
-### Remote WSL
-* vscode will open . in `Windows Subsystem Linux` environment
-* You can edit files in `WSL` environment in vscode editor without using `vim` or `nano`.
-
-> Usage:
-> 1. `ctrl+shift+p`: open command panel .
-> 2 . `WSL: New WSL Window`: Open `WSL` environment in vscode .
-
-<img src="img/2023-03-20-11-47-42.png" width="60%">
-
-### Dev-Container
-* Using `Docker`, the entire development environment inside vscode can run in the container, including editing, terminal, debugging, executing .
-
-* `Node.js`, `Python`, `Java`, etc. and other development tasks, only need to install `Docker` and vscode, no need to install the corresponding runtime and compiling software .
-
-<img src="img/2023-03-20-11-48-43.png" width="60%">
-
-<a href="#top">Back to top</a>
-
----
-
-## :computer: Remote-SSL
-
-The Remote - SSH extension lets you use any remote machine with a SSH server as your development environment. This can greatly simplify development and troubleshooting in a wide variety of situations. You can:
-* Develop on the same operating system you deploy to or use larger, faster, or more specialized hardware than your local machine.
-* Quickly swap between different, remote development environments and safely make updates without worrying about impacting your local machine.
-* Access an existing development environment from multiple machines or locations.
-Debug an application running somewhere else such as a customer site or in the cloud.
-
-<img src='img/2023-06-27-20-45-53.png' width='60%' />
-
-* Please note that if you are using the **Windows** operating system and experiencing issues with SSH, receiving the following error: `ssh: could not resolve hostname`, you need to add your **Host** and **Hostname** to the `C:/Windows/System32/drivers/etc/hosts` file:
-
-    ```
-    <Host> <Hostname>
-    ```
-
-
-
-Next, let's take an example of connecting VS Code to Colab:
-
-#### Connect VSCode to Colab
-
-Please refer to the official documentation for instructions:
-
-https://colab.research.google.com/github/JayThibs/jacques-blog/blob/master/_notebooks/2021-09-27-connect-to-colab-from-local-vscode.ipynb
-
-Remeber you only need to perform steps 6, 8, 9, and 10 once
-
-
-1. Open Colab.
-
-2. Execute the following code to connect to Google Drive. You will see your Drive file manager appear next to Colab.
+<img align="left" width="70" height="full" src="https://github.com/The-Garage-Tech-Team/design_system_flutter/assets/53023171/f9c41919-764e-4727-913b-e7f2f7fccdec" alt="flutterlogo" >
+
+
+# Material Components Widgets 
+<br>
+
+**Material Components Widgets** was completed by <a href="https://thegarage.sa">TheGarage</a>
+ mobile application development team. It is built using <a href="https://docs.flutter.dev/get-started/install"> Flutter</a>.
+ The team used <a href="https://pub.dev/packages/get">Getx</a> framework for state management.
+ Additionally, The primary objective of writing widget 
+ content is to ensure it results in clean code that is easy to read, maintain, understand, and modify by following a structured and consistent format.
+ 
+
+<br>
+
+##  📝 Contents 
+
+**Material Components** are a collection of UI widgets and design guidelines, divided into **six components**:
+</b></b>
+
+
+
+ -  [**Actions**](#action)
+ - **Communication**.
+ - **Containment**.
+ - **Navigation**.
+ - **Selection**.
+ - **Text Inputs**.
+   
+
+
+
+
+## 
+ ![action](https://github.com/The-Garage-Tech-Team/design_system_flutter/assets/53023171/bbf633b9-c7f6-4307-9365-f14fc37ddab4)
+
+# Common Buttons
+
+<img align="left" width="300" height="full" src="https://github.com/The-Garage-Tech-Team/design_system_flutter/assets/53023171/19a6a424-7bbe-4f0a-bdc6-013c3ec626c0" alt="flutterlogo" >
+
+<br></br>
+
+### Feature
+#### Theme 
+ ```bash
+ elevatedButtonTheme: ElevatedButtonThemeData(
+        style: ElevatedButton.styleFrom(
+      textStyle: const TextStyle(
+        fontFamily: 'GE-SS-Two',
+        fontWeight: FontWeight.w500,
+        color: whiteColor,
+        fontSize: 16,
+      ),
+      disabledBackgroundColor: primaryBananaColor,
+      disabledForegroundColor: whiteColor,
+      minimumSize: const Size(398, 48),
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
+      elevation: 0.0,
+      backgroundColor: primaryOrangeColor,
+    )),
+ ```
+### Component
+ ```bash
+   ElevatedButton(
+            onPressed: () {
+            },
+            child: const Text('press here'),
+          )
+ ```
+
+## Filled Button
+### Theme 
+ ```bash
+  filledButtonTheme: FilledButtonThemeData(
+  style: ButtonStyle(
+backgroundColor: MaterialStatePropertyAll(Colors.black),
+foregroundColor:  MaterialStatePropertyAll(Colors.white),
+        )
+ ```
+### Component
+ ```bash
+  FilledButton(
+                  onPressed: () {},
+                  child: const Text('press here'),
+                ),
+ ```
+## Filled Button Tonal
+### Theme 
+ ```bash
+   filledButtonTheme: FilledButtonThemeData(
+        style: ButtonStyle(
+          backgroundColor: MaterialStatePropertyAll(Colors.black),
+foregroundColor:  MaterialStatePropertyAll(Colors.white),
+        )
+      )
+ ```
+### Component
+ ```bash
+   FilledButton.tonal(
+                  onPressed: () {},
+                  child: const Text('press here'),
+                ),
+ ```
+
+
+
+
+
+
+
+## Outlined Button 
+### Theme 
+ ```bash
+ outlinedButtonTheme: OutlinedButtonThemeData(
+        style: OutlinedButton.styleFrom(
+      foregroundColor: primaryOrangeColor,
+      textStyle: const TextStyle(
+        fontFamily: 'GE-SS-Two',
+        fontWeight: FontWeight.w300,
+        color: primaryOrangeColor,
+        fontSize: 16,
+      ),
+      side: const BorderSide(color: primaryOrangeColor),
+      disabledBackgroundColor: primaryBananaColor,
+      minimumSize: const Size(398, 48),
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(24)),
+      elevation: 0.0,
+      backgroundColor: whiteColor,
+    )),
+ ```
+### Component
+ ```bash
+OutlinedButton(
+               
+                onPressed:  ()  {}
+                child: const Text('press here'),
+              ),
+                   
+ ```
+## Text Button 
+### Theme 
+ ```bash
+   textButtonTheme: TextButtonThemeData(
+      style: TextButton.styleFrom(
+        disabledBackgroundColor: greyCoinColor,
+        foregroundColor: greyCoinColor,
+      ),
+    ),
+ ```
+### Component
+ ```bash
+TextButton(
+                  onPressed: () {},
+                  child: Text(
+                    'press here',
+                  ),
+                ),
+ ```
+
+## Floating Action Button
+### Theme 
+ ```bash
+ floatingActionButtonTheme: FloatingActionButtonThemeData(
+        backgroundColor: Colors.blue,
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(30)),
+        elevation: 0.0,
+      )
+ ```
+### Component
+ ```bash
+ FloatingActionButton(
+              onPressed: () {},
+              child: Icon(Icons.add),
+            ),
+ ```
+
+## Extended Floating Action Button 
+### Theme 
+ ```bash
+ floatingActionButtonTheme: FloatingActionButtonThemeData(
+        backgroundColor: Colors.blue,
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(30)),
+        elevation: 0.0,
+      )
+ ```
+### Component
+ ```bash
+   FloatingActionButton.extended(
+              onPressed: () {
+              },
+              icon: Icon(Icons.add),
+              label: Text('EXTENDED'),
+            ),
+ ```
+
+## Icon Button
+### Theme 
+ ```bash
+              iconTheme: const IconThemeData(color: Colors.red),
+              primaryIconTheme: const IconThemeData(color: Colors.blue),
+              iconButtonTheme: const IconButtonThemeData(
+                style: ButtonStyle(
+                  foregroundColor: MaterialStatePropertyAll(Colors.green),
+                  backgroundColor: MaterialStatePropertyAll(Colors.green),
+                ),
+              ),
+ ```
+### Component
+ ```bash
+ IconButton(
+              onPressed: () {},
+              icon: const Icon(Icons.save),
+            ),
+ ```
+
+## Segmented Button
+### Theme 
+ ```bash
+ segmentedButtonTheme: SegmentedButtonThemeData(
+     style: ButtonStyle(
+     backgroundColor:  MaterialStatePropertyAll(Colors.white),
+    foregroundColor: MaterialStatePropertyAll(Colors.black),
+                        ),
+              )
+ ```
+ ### Controller
+  ```bash
+
+  Set <String> selection = {'S','M','L'};
+   List<ButtonSegment<String>> selectionSegment = [
+    ButtonSegment<String>(value: 'small', label: Text('S')),
+    ButtonSegment<String>(value: 'medium', label: Text('M')),
+    ButtonSegment<String>(value: 'large', label: Text('L')),
+  ];
+
+   void updateSelection(Set<String> newSelection) 
+    {
+    selection = newSelection;
+    update();
+  }
+  ```
+### Component
+ ```bash
+  GetBuilder<Controller>(builder: (controller) {
+                      return SegmentedButton<String>
+                      (
+                        segments: controller.selectionSegment,
+                        selected: controller.selection,
+                        onSelectionChanged: (Set<String> newSelection) {
+                          controller.updateSelection(newSelection);
+                        },
+                        multiSelectionEnabled: true,
+                        showSelectedIcon: false,
+
+                      );
+                    })
+                  
+                  
+                  
+                  
+ ```
+## Toggle Button
+### Theme 
+ ```bash
+toggleButtonsTheme: ToggleButtonsThemeData(
+        color: blackColor,
+              selectedColor: whiteColor,
+              fillColor: Colors.transparent,
+              borderWidth: 0,
+              borderColor: Colors.transparent,
+      )
+ ```
+ ### Controller 
+ ```bash
+  List<bool> get isSelectedList
+   {
+    return List.generate(2, (index) => selectedIndex == index);
+  }
+
+  selectIndex(int index) {
+    selectedIndex = index;
+    update();
+  }
+ ```
+### Component
+ ```bash
+  GetBuilder<Controller>(
+                         builder: (controller) {
+                           return ToggleButtons(
+              children: [
+                TextButtonVenueWidget(
+                  index: 0,
+
+                  text: 'option 1',
+                ),
+                TextButtonVenueWidget(
+                  index: 1,
+
+                  text: 'option 2',
+                )
+              ],
+              isSelected: controller.isSelectedList,
+              onPressed: (int index) => controller.selectIndex(index),
+              constraints: BoxConstraints.expand(height: 60, width: size.width * 0.45),
+            );
+                         }
+                       ),
+ ```
+
+
+
+
+
+![2](https://github.com/The-Garage-Tech-Team/design_system_flutter/assets/53023171/30a374f1-9a50-48e1-add9-4fdadbcb511f)
+
+
+## Badge
+### package
+ ```bash
+ badges: ^3.1.2
+
+ ```
+### Component
+ ```bash
+ GetBuilder<Controller>(builder: (controller) {
+  return badges.Badge(
+    position: BadgePosition.topEnd(top: 0, end: 3),
+    showBadge: true,
+    badgeContent: Text(
+      controller.quantity().toString(),
+      style: const TextStyle(color: Colors.color),
+    ),
+    badgeAnimation: const badges.BadgeAnimation.slide(
+      loopAnimation: false,
+      curve: Curves.fastOutSlowIn,
+    ),
+    badgeStyle: const badges.BadgeStyle(
+      shape: badges.BadgeShape.circle,
+      borderSide: BorderSide(color: Color, width: 2),
+      elevation: 0,
+    ),
+    child: IconButton(
+      onPressed: () {
     
-    ```python
-    from google.colab import drive
-    drive.mount("/content/drive")
-    ```
+      },
+      icon: const Icon(Icons.icon),
+    ),
+  );
+});
+ ```
+### Controller
 
-3. Create a file named `config.env` in your Google Drive, for example:
-   
-   ```
-   # /content/drive/MyDrive/Colab/config.env
-   PASSWORD=1234567
-   ```
+using List to counting the number in Badges.
+ ```bash
+List<Model> list = [];
+ ```
 
-4. Read the `config.env` file in Google Drive to obtain the password needed for SSH later.
-   
-   ```python
-   # !pip install python-dotenv --quiet
-    import dotenv
-    import os
 
-    dotenv.load_dotenv(
-            os.path.join('/content/drive/MyDrive/Colab/', 'config.env')
+ ```
+ int quantity() {
+  if (list.isEmpty) {
+    return 0;
+  } else {
+    return list
+       .length;
+  }
+ ```
+
+## Linear Progress Inictor
+### Theme 
+ ```bash
+ progressIndicatorTheme: const ProgressIndicatorThemeData(
+      linearMinHeight: 2.0,
+      color: Colors.white,
+    ),
+ ```
+### Component
+ ```bash
+       GetBuilder<controller>(
+                builder: (controller) {
+                  return LinearProgressIndicator(
+                   color: Colors.white,
+                    value: controller.progress,
+                  );
+                },
+              ),
+    ElevatedButton(
+                onPressed: () async {
+                  await controller.startProgress();
+                },
+                child: const Text('test'),
+              ),
+ ```
+### Controller
+ ```bash
+  double progress = 0.0;
+  int totalSteps = 100;
+
+  Future<void> startProgress() async {
+    for (int currentStep = 0; currentStep < totalSteps; currentStep++) {
+      await Future.delayed(const Duration(milliseconds: 100));
+      progress = (currentStep / totalSteps).toDouble();
+      update();
+    }
+  }
+  
+
+  
+ ```
+
+
+
+## Circular Progress Inictor
+### Theme 
+ ```bash
+ progressIndicatorTheme: const ProgressIndicatorThemeData(
+      linearMinHeight: 2.0,
+      color: Colors.white,
+    ),
+ ```
+### Component
+ ```bash
+    GetBuilder<controller>(
+                builder: (controller) {
+                  return CircularProgressIndicator(
+                   color: Colors.white,
+                    value: controller.progress,
+                  );
+                },
+              ),
+ ElevatedButton(
+                onPressed: () async {
+                  await controller.startProgress();
+                },
+                child: const Text('test'),
+              ),
+
+ ```
+### Controller
+ ```bash
+  double progress = 0.0;
+  int totalSteps = 100;
+
+  Future<void> startProgress() async {
+    for (int currentStep = 0; currentStep < totalSteps; currentStep++) {
+      await Future.delayed(const Duration(milliseconds: 100));
+      progress = (currentStep / totalSteps).toDouble();
+      update();
+    }
+  }
+   
+ ```
+
+## Snack Bar
+
+We recommend using the 'SnackBarWidget' if you have only one design.
+
+### Theme 
+ ```bash
+   snackBarTheme: const SnackBarThemeData(
+        actionTextColor: Colors.white,
+        backgroundColor: Colors.white,
+        contentTextStyle: TextStyle(color: Colors.white),
+        elevation: 20
+    ),
+ ```
+### Component
+
+ ```bash
+    Get.snackbar(
+          'Title',
+          'test',
+          snackPosition: SnackPosition.BOTTOM,
+          backgroundColor: Colors.white,
+          snackStyle: SnackStyle.FLOATING,
+        );
+ ```
+
+
+
+## Snack Bar
+
+We recommend using the "GlobalSnackBar" class throughout the entire project, especially if there are various designs for SnackBars 
+such as warning, error, and success messages.
+### Theme 
+ ```bash
+   snackBarTheme: const SnackBarThemeData(
+        actionTextColor: Colors.white,
+        backgroundColor: Colors.transparent,
+        contentTextStyle: TextStyle(color: Colors.black),
+        elevation: 20
+    ),
+ ```
+### Component 
+
+ ```bash
+class GlobalSnackBar {
+  const GlobalSnackBar();
+
+  static warningSnackBar(
+    String message,
+  ) {
+    Get.snackbar('', '',
+        titleText: WarningSnackBar(
+          message: message,
+        ),
+        snackStyle: SnackStyle.FLOATING,
+        snackPosition: SnackPosition.BOTTOM,
+        barBlur: 0.0);
+  }
+
+  static errorSnackBar(
+    String message,
+  ) {
+    Get.snackbar('', '',
+        titleText: ErrorSnackBar(
+          message: message,
+        ),
+        snackStyle: SnackStyle.FLOATING,
+        snackPosition: SnackPosition.BOTTOM,
+        barBlur: 0.0);
+  }
+
+  static questionSnackBar(
+    String message,
+  ) {
+    Get.snackbar('', '',
+        titleText: QuestionSnackBar(
+          message: message,
+        ),
+        snackStyle: SnackStyle.FLOATING,
+        snackPosition: SnackPosition.BOTTOM,
+        barBlur: 0.0);
+  }
+
+  static successSnackBar(
+    String message,
+  ) {
+    Get.snackbar('', '',
+        titleText: SuccessSnackBar(
+          message: message,
+        ),
+        snackStyle: SnackStyle.FLOATING,
+        snackPosition: SnackPosition.BOTTOM,
+        barBlur: 0.0);
+  }
+}
+ ```
+
+![3](https://github.com/The-Garage-Tech-Team/design_system_flutter/assets/53023171/d9f00fe3-d80d-4d45-ab71-9a4f2ee0f290)
+
+
+## Alert Dialog
+
+### Theme 
+ ```bash
+ dialogTheme: const DialogTheme(
+        backgroundColor: greyCoffeeColor,
+        shadowColor: Colors.white,
+      )
+ ```
+
+
+### Component
+ ```bash
+Dialog(
+     child: Column(
+      children: [
+        const Text(
+          'are YouSure Cancel',
+        ),
+        Row(
+          children: [
+            OutlinedButton(
+              onPressed: () {},
+              child: Text(
+                'No',
+              ),
+            ),
+            ElevatedButton(
+              onPressed: () {},
+              child: Text('yes'),
+            ),
+          ],
+        ),
+      ],
     )
-    password = os.getenv('PASSWORD')
-   ```
-
-5. Perform SSH using Cloudflared to obtain the remote host (URL that will be used later).
-   
-   ```python
-    # Install colab_ssh on google colab
-    # !pip install colab_ssh --upgrade --quiet
-    from colab_ssh import launch_ssh_cloudflared, init_git_cloudflared
-    launch_ssh_cloudflared(password)
-   ```
-
-    <img src='img/2023-06-27-21-06-42.png' width='60%' />
-
-6. Download Cloudflared to any location on your local machine. [link](https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/install-and-setup/installation/)
-   
-7. Install the `Remote-SSH` extension in VS Code.
-
-8. Use the VS Code command `Ctrl+Shift+P` and enter `remote-ssh: connect to host`.
-
-9.  Select `configure ssh hosts` then `c:\users<name>.ssh\config`.
-
-10. Paste the following code, making sure to fill in the path with the location where Cloudflared was downloaded!
-
-    ```
-    Host *.trycloudflare.com
-        HostName %h
-        User root
-        Port 22
-        ProxyCommand <PUT_THE_ABSOLUTE_CLOUDFLARE_PATH_HERE> access ssh --hostname %h
-    ```    
-
-11. Use the VS Code command `Ctrl+Shift+P` and enter `remote-ssh: connect to host`.
-12. Select `add new ssh host` and enter the URL from step 5.
-13. Enter the password from `config.env`.
-
-14. After creating new vscode window, choose the OS System.
-
-15. Finished!
-
-<a href="#top">Back to top</a>
-
----
-
-## :wrench:Fixer (Fix Vscode Corrupt)
-Sometimes, when uninstalling the plugin, the following error message will appear in the lower right corner of the VS Code window:
-
-<img src="https://user-images.githubusercontent.com/63782903/231321298-916da9d3-0e90-4bd5-bfc6-859371545ec7.png" width="40%" />
-
-You can solve this problem with:
-
-> Usage:
-> 1. Download Fix VSCode Checksum Plugin .
-> 2. `ctrl+shift+p`: Open command palette .
-> 3. `Fix ChecksumS: Apply`: perform repair .
-> 4. `ctrl+shift+p`: Open command palette .
-> 5. `Developer: Reload Window`: restart VS Code.
-
-<img src="img/2023-03-17-21-36-48.png" width="60%">
+);
+ ```
 
 
-<a href="#top">Back to top</a>
+## Bottom Sheet 
 
-## :rocket: Copilot
-AI-assisted development tools similar to ChatGPT make everyone faster in the development process
 
-### Codeium
-* Completely **FREE** to use!
-*Comparison of functions with ChatGPT and Copilot
-* With this tool, you can:
-    * Automatic code generation
-    * automatically generates comments, `Docstring`
-    * automatically generates `Annotation hint`
-    * improve code quality
+### Theme 
+ ```bash
+bottomSheetTheme: const BottomSheetThemeData(
+        backgroundColor: whiteColor,
+        elevation: 1.0,
+        modalElevation: 1.0,
+        shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.vertical(top: Radius.circular(28.0))),
+      )
+);
+ ```
+### Component
+ ```bash
+ Get.bottomSheet(
+                         ignoreSafeArea: false,
+                         isScrollControlled: true,
+                         Widget());
 
-    <img src="img/2023-06-02-11-36-02.png" width="40%" />
+ ```
 
-* Instructions
-    * Click `Refactor` of the code block
 
-        <img src="img/2023-06-02-11-35-37.png" width="60%" />
+## Card
 
-    * Select the processing you want, eg: `Add comments and docstrings to the code`
 
-        <img src="img/2023-06-06-15-00-52.png" width="50%" />
+### Theme 
+ ```bash
+  cardTheme: const CardTheme(
+      elevation: 0.0,
+      color: whiteColor,
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.all(Radius.circular(4)),
+      ),
+    ),
+ ```
+### Component
+ ```bash
+    Card(
+        child: Column(
+          children: [
+            SizedBox(
+              height: size.height / 29.2,
+            ),
+            Text(" Extras", style: textTheme.displayLarge),
+            SizedBox(
+              height: size.height / 56.26,
+            ),
+          ],
+        ),
+      );
+ ```
 
-    * generate `Codeium` chat blocks
+## Divider
 
-        <img src="img/2023-06-06-15-05-18.png" width="40%" />
 
-    * code extraction is complete!
+### Theme 
+ ```bash
+    dividerColor: greyCoffeeColor,
+ ```
+### Component
+ ```bash
+ const Divider(
+  thickness: 2,
+  ),
+ ```
+## List Tile
 
-<a href="#top">Back to top</a>
+
+### Theme 
+ ```bash
+  listTileTheme: const ListTileThemeData(
+        textColor: Colors.black,        
+      ),
+ ```
+### Component
+ ```bash
+  ListTile(
+            leading: CircleAvatar(child: Text('B')),
+            title: Text('Headline'),
+            subtitle: Text(
+           'Longer supporting text to demonstrate how the text.'),
+          ),
+ ```
+### Controller
+ ```bash
+ Controller"
+ Controller"
+ ```
+
+## Grid view 
+
+### Component
+ ```bash
+    GridView.builder(
+            gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+              crossAxisCount: 2,
+              childAspectRatio: 0.93,
+              childAspectRatio: 0.8,
+              mainAxisSpacing: 8.0,
+              crossAxisSpacing: 10.0,
+              maxCrossAxisExtent: 200,
+            ),
+            shrinkWrap: true,
+            physics: const NeverScrollableScrollPhysics(),
+            itemCount: 2,
+            itemBuilder: (_, index) {
+              return Widget();
+            },
+          );
+
+ ```
+
+## List View
+
+### Component
+ ```bash
+ ListView.builder(
+          itemCount: 3,
+          itemBuilder: (BuildContext context, int index) {
+            return widget() 
+           },
+ ```
+
+
+![Navigation](https://github.com/The-Garage-Tech-Team/design_system_flutter/assets/53023171/2209d949-722d-42f6-bd0f-11141a3f55a7)
+
+## App Bar
+### Theme 
+ ```bash
+appBarTheme: const AppBarTheme(
+    titleTextStyle: TextStyle(
+        fontFamily: 'Mona-Sans',
+        fontWeight: FontWeight.w800,
+        fontSize: 20,
+        color: mainColor),
+    systemOverlayStyle: SystemUiOverlayStyle(
+      statusBarColor: Colors.transparent,
+      statusBarBrightness: Brightness.light,
+    ),
+    elevation: 0.5,
+    backgroundColor: whiteColor,
+    iconTheme: IconThemeData(color: greyMirageColor)),
+ ```
+### Component
+ ```bash
+class AppBarWidget extends StatelessWidget implements PreferredSizeWidget {
+  const AppBarWidget({super.key});
+
+  
+  @override
+  Size get preferredSize => const Size.fromHeight(60);
+
+  @override
+  Widget build(BuildContext context) {
+    return AppBar(
+      leading: IconButton(
+      onPressed: () {},
+      icon: Icon(Icons.add_alert),
+    ),
+      centerTitle: true,
+      title: const Text('title'),
+      actions: [
+          TextButton(
+            style: style,
+            onPressed: () {},
+            child: const Text('Action 1'),
+          ),
+          TextButton(
+            style: style,
+            onPressed: () {},
+            child: const Text('Action 2'),
+          ),
+        ],
+    );
+  }
+}
+ ```
+
+## Bottom App Bar 
+### Theme 
+ ```bash
+navigationBarTheme: NavigationBarThemeData(
+          backgroundColor: Colors.white,
+          elevation: 0.0,
+          shadowColor: Colors.grey.shade400,
+          indicatorColor: Colors.blue),
+          bottomAppBarTheme: BottomAppBarTheme(
+            color: Colors.white,
+elevation: 0.0,
+height: 12,
+shadowColor: Colors.black,
+shape: storage
+          )
+ ```
+### Component
+ ```bash
+bottomNavigationBar: BottomAppBar(
+          child: Row(
+            children: [
+               IconButton(
+              tooltip: 'Search',
+              icon: const Icon(Icons.search),
+              onPressed: () {},
+            ),
+            IconButton(
+              tooltip: 'Favorite',
+              icon: const Icon(Icons.favorite),
+              onPressed: () {},
+            ),
+            ],
+          ),
+        ),
+ ```
+
+
+## Navigation Bar
+### Theme 
+ ```bash
+      navigationBarTheme: NavigationBarThemeData(
+          backgroundColor: Colors.white,
+          elevation: 0.0,
+          shadowColor: Colors.grey.shade400,
+          indicatorColor: Colors.blue)
+ ```
+### Component
+ ```bash
+ NavigationBar(
+          selectedIndex: controller.pageIndex.value,
+          onDestinationSelected: (int index) {
+    
+            controller.changeIndex(index);
+          },
+          destinations: [
+            NavigationDestination(icon: Icon(Icons.abc), label: 'option1'),
+            NavigationDestination(icon: Icon(Icons.abc), label: 'option2'),
+            NavigationDestination(icon: Icon(Icons.abc), label: 'option3')
+          ],
+ ),
+ body: <Widget>[
+          Container(
+            alignment: Alignment.center,
+            child: const Text('Page 1'),
+          ),
+          Container( 
+            alignment: Alignment.center,
+            child: const Text('Page 2'),
+          ),
+          Container(
+            alignment: Alignment.center,
+            child: const Text('Page 3'),
+          ),
+        ][controller.pageIndex],
+ ```
+### Controller
+ ```bash
+ var pageIndex = 0;
+  changeIndex(int index) {
+    pageIndex = index;
+  }
+ ```
+
+
+## Navigation Drawer
+### Theme 
+ ```bash
+navigationDrawerTheme: NavigationDrawerThemeData(
+            backgroundColor: Colors.blue.shade200,
+            tileHeight: 12,
+            shadowColor: Colors.black,
+            indicatorColor: Colors.blue.shade50,
+            indicatorShape: storage,
+            labelTextStyle: MaterialStatePropertyAll(TextStyle(fontFamily: fontFamily))
+          )
+ ```
+### Component
+ ```bash
+  Scaffold(
+        drawer: Drawer(
+          child: ListView(
+            children: [
+              DrawerHeader(child: Text('Header')),
+              ListTile(
+                title: Text('option1'),
+                onTap: () {},
+              ),
+              ListTile(
+                title: Text('option2'),
+                onTap: () {},
+              ),
+            ],
+          ),
+        ),
+ ),
+ ```
+
+## Navigation Rail
+### Theme 
+ ```bash
+ navigationRailTheme: NavigationRailThemeData(
+            backgroundColor: Colors.white,
+            elevation: 0,
+            minWidth: 12,
+            indicatorColor: Colors.blue,
+            useIndicator: true
+          )
+ ```
+### Component
+ ```bash
+Row(
+              children: [
+                NavigationRail(
+                  destinations: <NavigationRailDestination>[
+                    NavigationRailDestination(
+                      icon: Icon(Icons.favorite_border),
+                      selectedIcon: Icon(Icons.favorite),
+                      label: Text('First'),
+                    ),
+                    NavigationRailDestination(
+                      icon: Icon(Icons.bookmark_border),
+                      selectedIcon: Icon(Icons.book),
+                      label: Text('Second'),
+                    ),
+                  ],
+                  selectedIndex: controller.index,
+                  onDestinationSelected: (int index) {
+                    controller.changeIndex(index);
+                  },
+                )
+              ],
+            )
+ ```
+### Controller
+ ```bash
+  var index = 0;
+
+  changeIndex(int index) {
+    index = index;
+  }
+ ```
+
+## Tab Bar
+### Theme 
+ ```bash
+tabBarTheme: TabBarTheme(
+        labelColor: Colors.white,
+        indicatorColor: Colors.blue.shade800,
+        overlayColor: MaterialStateProperty.all(Colors.blue.shade300),
+      )
+ ```
+### Component
+ ```bash
+DefaultTabController(
+      initialIndex: 1,
+      length: 3,
+      child:Scaffold(
+        appBar: AppBar(
+          bottom:TabBar(
+            tabs:[
+            Tab(text:'Car'),
+            Tab(text:'Plane'),
+            Tab(text:'Boat'),
+            ],
+          ),
+        ),
+        body:TabBarView(
+          children:[
+            CarWidget(),
+            PlaneWidget(),
+            BoatWidget(),
+          ],
+        ),
+      ),
+),
+ ```
+
+![Selection](https://github.com/The-Garage-Tech-Team/design_system_flutter/assets/53023171/0707e29e-096a-47d8-8e13-93a94f906176)
+
+### Theme 
+ ```bash
+ Theme"
+ Theme"
+ ```
+### Component
+ ```bash
+ Component"
+ Component"
+ ```
+### Controller
+ ```bash
+ Controller"
+ Controller"
+ ```
+
+## Check Box
+### Theme 
+ ```bash
+    checkboxTheme: CheckboxThemeData(
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(5),
+      ),
+      checkColor: MaterialStateProperty.all(whiteColor),
+      fillColor: MaterialStateProperty.all(Colors.transparent),
+    ),
+ ```
+### Component
+ ```bash
+        Checkbox(
+          activeColor: Colors.green,
+          value: controller.isCheck,
+          onChanged: (bool? value) {
+          controller.updateCheckBox(value!);
+          },
+        ),
+ ```
+### Controller
+ ```bash
+  bool isCheck = false;
+
+  void updateCheckBox(bool value) {
+    isCheck = value;
+    update();
+  }
+ ```
+
+## Chip 
+### Theme 
+ ```bash
+  chipTheme: ChipThemeData(
+      secondarySelectedColor: whiteColor,
+      secondaryLabelStyle: const TextStyle(color: primaryOrangeColor),
+      backgroundColor: whiteColor,
+      disabledColor: whiteColor,
+      selectedColor: whiteColor,
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(12),
+        side: const BorderSide(
+          color: greySteelColor,
+        ),
+      ),
+    ),
+ ```
+### Component
+ ```bash
+ChoiceChip(
+          selectedColor: whiteColor,
+          padding: const EdgeInsets.symmetric(horizontal: 16.0),
+          label: const Text('item'),
+          // selected chip value
+          selected: _value == index,
+          // onSelected method
+          onSelected: (bool selected) {},
+),
+ ```
+
+## Date Picker
+### Pakage 
+ ```bash
+  syncfusion_flutter_datepicker: ^22.1.37
+ ```
+### Component
+ ```bash
+
+class CalendarWidget extends StatelessWidget {
+  final DateRangePickerSelectionChangedCallback? onSelectionChanged;
+  final DateRangePickerSelectionMode selectionMode;
+
+ const CalendarWidget(
+      {super.key,
+      required this.onSelectionChanged,
+      required this.selectionMode});
+
+  @override
+  Widget build(BuildContext context) {
+    final textTheme = Theme.of(context).textTheme;
+    return SfDateRangePicker(
+      minDate: DateTime.now().subtract(const Duration(days: -1)),
+      view: DateRangePickerView.month,
+      monthViewSettings: DateRangePickerMonthViewSettings(
+          viewHeaderStyle: DateRangePickerViewHeaderStyle(
+              textStyle: textTheme.bodySmall?.copyWith(fontSize: 12))),
+      headerStyle: DateRangePickerHeaderStyle(
+        textStyle: textTheme.displaySmall,
+      ),
+      monthCellStyle: DateRangePickerMonthCellStyle(
+          todayTextStyle: textTheme.displaySmall,
+          textStyle: textTheme.headlineLarge?.copyWith(fontSize: 12)),
+      yearCellStyle: DateRangePickerYearCellStyle(
+          todayTextStyle: textTheme.displaySmall,
+          textStyle: textTheme.displaySmall),
+      todayHighlightColor: primaryOrangeColor,
+      endRangeSelectionColor: primaryOrangeColor,
+      rangeSelectionColor: primaryOrangeColor,
+      selectionColor: primaryOrangeColor,
+      startRangeSelectionColor: primaryOrangeColor,
+      onSelectionChanged: onSelectionChanged,
+      selectableDayPredicate: controller.disableDate,
+      selectionMode: selectionMode,
+    );
+  }
+}
+ ```
+### Controller
+ ```bash
+  String? startDate;
+  String? endDate;
+  String? rangeDate = DateFormat('yyyy-MM-dd')
+      .format(DateTime.now().toLocal().subtract(const Duration(days: -1)));
+
+  void onSelectionChanged(DateRangePickerSelectionChangedArgs args) {
+    if (args.value is PickerDateRange) {
+      if (args.value.endDate == null ||
+          args.value.startDate == args.value.endDate) {
+        startDate =
+            DateFormat('yyyy-MM-dd').format(args.value.startDate).toString();
+        endDate =
+            DateFormat('yyyy-MM-dd').format(args.value.startDate).toString();
+        rangeDate = startDate;
+      } else {
+        startDate = DateFormat('yyyy-MM-dd').format(args.value.startDate);
+        endDate = DateFormat('yyyy-MM-dd').format(args.value.endDate);
+        rangeDate = '$startDate - $endDate';
+      }
+    }
+    update();
+  }
+
+ bool disableDate(DateTime day) {
+    if ((day.isAfter(
+      DateTime.now().subtract(
+        const Duration(days: 0),
+      ),
+    ))) {
+      return true;
+    }
+    return false;
+  }
+ ```
+
+## Dropdown Button
+### Package 
+ ```bash
+  dropdown_button2: ^2.3.9
+ ```
+### Component
+ ```bash
+DropdownButtonHideUnderline(child:
+DropdownButton2(
+            alignment: Alignment.centerRight,
+            isExpanded: true,
+            hint: const Text( "Chose ",
+              style: TextStyle(
+                fontSize: 16,
+                fontWeight: FontWeight.w200,
+                  color:Colors.grey ,
+              ),
+            ),
+            items: controller.item
+                .map((item) => DropdownMenuItem<String>(
+                      value: item,
+                      child: Align(
+                        alignment: Alignment.centerRight,
+                        child: Text(
+                          item,
+                          style: TextStyle(
+                            fontSize: 16,
+                            fontWeight: FontWeight.w200,
+                            color:Colors.black ,
+                          ),
+                          overflow: TextOverflow.ellipsis,
+                        ),
+                      ),
+                    ))
+                .toList(),
+            value: controller.selectedValue,
+            onChanged: (value) {
+              controller.updateSelectedValue(value.toString());
+            },
+            iconStyleData: const IconStyleData(
+              icon: Visibility(
+                visible: true,
+                child: Icon(Icons.keyboard_arrow_down),
+              ),
+            ),
+            buttonStyleData: ButtonStyleData(
+              height: size.height * 0.06,
+              width: size.width * 0.9,
+              padding: const EdgeInsets.only(left: 14, right: 14),
+              decoration: BoxDecoration(
+                  borderRadius: const BorderRadius.only(
+                      topRight: Radius.circular(5),
+                      topLeft: Radius.circular(5),
+                      bottomLeft: Radius.circular(0),
+                      bottomRight: Radius.circular(0)),
+                      color:Colors.white ,
+            ),
+            dropdownStyleData: DropdownStyleData(
+              decoration: BoxDecoration(
+              color:Colors.grey ,
+              maxHeight: size.height * 0.9,
+              width: size.width * 0.9,
+            ),
+            menuItemStyleData: const MenuItemStyleData(
+              height: 40,
+            ),
+          ));
+ ```
+### Controller
+ ```bash
+  List<String> items = ["Option1", "Opchion2", "Other"];
+  UnmodifiableListView<String> get item => UnmodifiableListView(items);
+  String? selectedValue;
+  void updateSelectedValue(String value) {
+  selectedValue = value;
+  update();
+  }
+ ```
+
+## Radio
+### Theme 
+ ```bash
+ Theme"
+ Theme"
+ ```
+### Component
+ ```bash
+ Component"
+ Component"
+ ```
+### Controller
+ ```bash
+ Controller"
+ Controller"
+ ```
+
+## Slider
+### Theme 
+ ```bash
+ Theme"
+ Theme"
+ ```
+### Component
+ ```bash
+ Component"
+ Component"
+ ```
+### Controller
+ ```bash
+ Controller"
+ Controller"
+ ```
+
+## Switch
+### Theme 
+ ```bash
+ Theme"
+ Theme"
+ ```
+### Component
+ ```bash
+ Component"
+ Component"
+ ```
+### Controller
+ ```bash
+ Controller"
+ Controller"
+ ```
+
+## Time Picker
+### Theme 
+ ```bash
+ Theme"
+ Theme"
+ ```
+### Component
+ ```bash
+ Component"
+ Component"
+ ```
+### Controller
+ ```bash
+ Controller"
+ Controller"
+ ```
+
+![TextInputs](https://github.com/The-Garage-Tech-Team/design_system_flutter/assets/53023171/41e417d9-66e6-4537-961d-683b59e66381)
+
+# Text Inputs
+
+
 
