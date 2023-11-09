@@ -21,7 +21,7 @@
 
 
 
- -  [**Actions**](#Action)
+ -  [actions](#Action_button)
  -  [theme](#purple_hearttheme)
  - **Communication**.
  - **Containment**.
@@ -33,7 +33,7 @@
 
 
 
-## :Action:Action
+## :Action_button:Action
 ## :purple_heart:Theme
 
 # Common Buttons
