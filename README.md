@@ -962,10 +962,29 @@ bottomSheetTheme: const BottomSheetThemeData(
            },
  ```
 
+<br>
+
+
+
+
+</br>
+
 ![navigation](https://github.com/The-Garage-Tech-Team/design_system_flutter/assets/53023171/2209d949-722d-42f6-bd0f-11141a3f55a7) <a id="navigation"></a>
 
+## 
+ <img align="left" width="450" height="full" src="https://github.com/afnanalmohd/task_flutterr/assets/53023171/877a453c-0264-44e3-a64d-792f4797c1c4"
+ alt="Badge" >
 
-## App Bar
+<br>
+
+
+
+
+
+</br>
+
+ 
+
 ### Theme 
  ```bash
 appBarTheme: const AppBarTheme(
@@ -1017,8 +1036,7 @@ class AppBarWidget extends StatelessWidget implements PreferredSizeWidget {
 }
  ```
 
-## Bottom App Bar 
-### Theme 
+
  ```bash
 navigationBarTheme: NavigationBarThemeData(
           backgroundColor: Colors.white,
@@ -1054,7 +1072,21 @@ bottomNavigationBar: BottomAppBar(
  ```
 
 
-## Navigation Bar
+## 
+ <img align="left" width="450" height="full" src="https://github.com/afnanalmohd/task_flutterr/assets/53023171/9b80d07c-69d6-494e-9c2c-19ff711bf4bd"
+ alt="Badge" >
+
+<br>
+
+
+
+
+
+
+</br>
+
+ 
+
 ### Theme 
  ```bash
       navigationBarTheme: NavigationBarThemeData(
@@ -1101,7 +1133,21 @@ bottomNavigationBar: BottomAppBar(
  ```
 
 
-## Navigation Drawer
+## 
+ <img align="left" width="450" height="full" src="https://github.com/afnanalmohd/task_flutterr/assets/53023171/699887e2-df94-4d04-9d08-186168e2008d"
+ alt="Badge" >
+
+<br>
+
+
+
+
+
+
+</br>
+
+ 
+
 ### Theme 
  ```bash
 navigationDrawerTheme: NavigationDrawerThemeData(
@@ -1134,7 +1180,22 @@ navigationDrawerTheme: NavigationDrawerThemeData(
  ),
  ```
 
-## Navigation Rail
+## 
+ <img align="left" width="450" height="full" src="https://github.com/afnanalmohd/task_flutterr/assets/53023171/2bbeb786-cb3e-4bbb-b96c-5c88f73f36f0"
+ alt="Badge" >
+
+<br>
+
+
+
+
+
+
+
+</br>
+
+ 
+
 ### Theme 
  ```bash
  navigationRailTheme: NavigationRailThemeData(
@@ -1179,7 +1240,21 @@ Row(
   }
  ```
 
-## Tab Bar
+## 
+ <img align="left" width="450" height="full" src="https://github.com/afnanalmohd/task_flutterr/assets/53023171/eb77991f-edd3-4b25-8148-25350023e349"
+ alt="Badge" >
+
+<br>
+
+
+
+
+
+
+</br>
+
+ 
+
 ### Theme 
  ```bash
 tabBarTheme: TabBarTheme(
