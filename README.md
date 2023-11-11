@@ -233,7 +233,7 @@ TextButton(
 ##
 
 
- <img align="left" width="300" height="full" src="https://github.com/afnanalmohd/task_flutterr/assets/53023171/f903e828-d8de-4335-8a87-d20c9a9eed18"
+ <img align="left" width="390" height="full" src="https://github.com/afnanalmohd/task_flutterr/assets/53023171/f903e828-d8de-4335-8a87-d20c9a9eed18"
  alt="Text Button " >
 
 <br>
