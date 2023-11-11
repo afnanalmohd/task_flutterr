@@ -972,7 +972,7 @@ bottomSheetTheme: const BottomSheetThemeData(
 ![navigation](https://github.com/The-Garage-Tech-Team/design_system_flutter/assets/53023171/2209d949-722d-42f6-bd0f-11141a3f55a7) <a id="navigation"></a>
 
 ## 
- <img align="left" width="200" height="full" src="https://github.com/afnanalmohd/task_flutterr/assets/53023171/877a453c-0264-44e3-a64d-792f4797c1c4"
+ <img align="left" width="280" height="full" src="https://github.com/afnanalmohd/task_flutterr/assets/53023171/877a453c-0264-44e3-a64d-792f4797c1c4"
  alt="Badge" >
 
 <br>
@@ -1073,7 +1073,7 @@ bottomNavigationBar: BottomAppBar(
 
 
 ## 
- <img align="left" width="200" height="full" src="https://github.com/afnanalmohd/task_flutterr/assets/53023171/9b80d07c-69d6-494e-9c2c-19ff711bf4bd"
+ <img align="left" width="280" height="full" src="https://github.com/afnanalmohd/task_flutterr/assets/53023171/9b80d07c-69d6-494e-9c2c-19ff711bf4bd"
  alt="Badge" >
 
 <br>
@@ -1134,7 +1134,7 @@ bottomNavigationBar: BottomAppBar(
 
 
 ## 
- <img align="left" width="200" height="full" src="https://github.com/afnanalmohd/task_flutterr/assets/53023171/699887e2-df94-4d04-9d08-186168e2008d"
+ <img align="left" width="280" height="full" src="https://github.com/afnanalmohd/task_flutterr/assets/53023171/699887e2-df94-4d04-9d08-186168e2008d"
  alt="Badge" >
 
 <br>
