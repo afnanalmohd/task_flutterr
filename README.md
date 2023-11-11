@@ -41,8 +41,9 @@
 # Common Buttons
 
 
-<img align="left" width="300" height="full" src="https://github.com/afnanalmohd/task_flutterr/assets/53023171/f8c275ab-6ea3-4e7e-9708-d10ab0ddcb23"
- alt="elevatedButton" >
+<img align="left" width="300" height="full" src="https://github.com/afnanalmohd/task_flutterr/assets/53023171/ccdd8e53-2212-4eb9-9656-25bf302fdbbb"
+ alt="Elevated Button" >
+
 
 <br></br>
 
