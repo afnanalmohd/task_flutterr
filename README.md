@@ -779,7 +779,7 @@ Dialog(
 #### Theme
 
 
-### Theme 
+
  ```bash
 bottomSheetTheme: const BottomSheetThemeData(
         backgroundColor: whiteColor,
@@ -815,7 +815,7 @@ bottomSheetTheme: const BottomSheetThemeData(
 #### Theme
 
 
-### Theme 
+
  ```bash
   cardTheme: const CardTheme(
       elevation: 0.0,
@@ -857,7 +857,7 @@ bottomSheetTheme: const BottomSheetThemeData(
 #### Theme
 
 
-### Theme 
+
  ```bash
     dividerColor: greyCoffeeColor,
  ```
@@ -882,7 +882,7 @@ bottomSheetTheme: const BottomSheetThemeData(
 #### Theme
 
 
-### Theme 
+
  ```bash
   listTileTheme: const ListTileThemeData(
         textColor: Colors.black,        
@@ -903,7 +903,20 @@ bottomSheetTheme: const BottomSheetThemeData(
  Controller"
  ```
 
-## Grid view 
+ ## 
+ <img align="left" width="300" height="full" src="https://github.com/afnanalmohd/task_flutterr/assets/53023171/7375bf8c-c917-4612-aadd-cf8c9c7b8048"
+ alt="Filled Button" >
+
+<br>
+
+
+
+
+
+</br>
+
+ 
+
 
 ### Component
  ```bash
@@ -926,7 +939,19 @@ bottomSheetTheme: const BottomSheetThemeData(
 
  ```
 
-## List View
+ ## 
+ <img align="left" width="300" height="full" src="https://github.com/afnanalmohd/task_flutterr/assets/53023171/34e258f0-2bdc-451b-a8fe-a345d2bf4293"
+ alt="Filled Button" >
+
+<br>
+
+
+
+
+
+</br>
+
+ 
 
 ### Component
  ```bash
