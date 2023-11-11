@@ -21,12 +21,12 @@
 
 
 
- -  [Actions](#action)
- -  [Communication](#communication)
- -  [Containment](#containment)
- -  [Navigation](#navigation)
- -  [Selection](#selection)
- -  [Text Inputs](#text_inputs)
+ -  [Actions](#action) : Interactive elements which trigger actions when clicked .
+ -  [Communication](#communication) : Used to convey information to the user.
+ -  [Containment](#containment) : Components for grouping  in defined area.
+ -  [Navigation](#navigation) : User movement within the application.
+ -  [Selection](#selection) : That allow users to make decisions .
+ -  [Text Inputs](#text_inputs) :Elements for entering text .
   
 
    
