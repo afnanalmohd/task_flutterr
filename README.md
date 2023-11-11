@@ -23,10 +23,10 @@
 
  -  [Actions](#action)
  -  [Communication](#communication)
- -  [Containment](#Containment)
- -  [Navigation](#Navigation)
- -  [Selection](#Selection)
- -  [Text Inputs](#Text_Inputs)
+ -  [Containment](#containment)
+ -  [Navigation](#navigation)
+ -  [Selection](#selection)
+ -  [Text Inputs](#text_inputs)
   
 
    
