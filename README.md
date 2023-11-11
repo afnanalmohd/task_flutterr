@@ -1280,7 +1280,8 @@ DropdownButton2(
  Controller"
  ```
 
-![text_inputs](https://github.com/The-Garage-Tech-Team/design_system_flutter/assets/53023171/0707e29e-096a-47d8-8e13-93a94f906176) <a id="text_inputs"></a>
+
+![text_inputs](https://github.com/afnanalmohd/task_flutterr/assets/53023171/e2c451d8-df5e-4d9f-b40f-ea74e99e3593) <a id="text_inputs"></a>
 
 # Text Inputs
 
