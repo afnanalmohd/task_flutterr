@@ -130,13 +130,18 @@ foregroundColor:  MaterialStatePropertyAll(Colors.white),
  ```
 
 
+ ## 
+ <img align="left" width="300" height="full" src="https://github.com/afnanalmohd/task_flutterr/assets/53023171/60e3e962-a566-4929-9fea-451ad72290a5"
+ alt="Outlined Button " >
+
+<br>
 
 
+</br>
 
+ 
+#### Theme 
 
-
-## Outlined Button 
-### Theme 
  ```bash
  outlinedButtonTheme: OutlinedButtonThemeData(
         style: OutlinedButton.styleFrom(
