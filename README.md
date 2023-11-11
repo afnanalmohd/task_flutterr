@@ -416,8 +416,19 @@ toggleButtonsTheme: ToggleButtonsThemeData(
 
 
 ![communication](https://github.com/The-Garage-Tech-Team/design_system_flutter/assets/53023171/30a374f1-9a50-48e1-add9-4fdadbcb511f) <a id="communication"></a>
+ ## 
+ <img align="left" width="300" height="full" src="https://github.com/afnanalmohd/task_flutterr/assets/53023171/ef3881bf-abca-4576-9a1b-80303174bbaa"
+ alt="Badge" >
 
-## Badge
+<br>
+
+
+
+</br>
+
+ 
+#### Theme 
+
 ### package
  ```bash
  badges: ^3.1.2
@@ -469,8 +480,21 @@ List<Model> list = [];
   }
  ```
 
-## Linear Progress Inictor
-### Theme 
+ ## 
+ <img align="left" width="300" height="full" src="https://github.com/afnanalmohd/task_flutterr/assets/53023171/8fcbc752-d4d4-47ff-9f6a-8cc62ee45cae"
+ alt="Badge" >
+
+<br>
+
+
+
+
+</br>
+
+ 
+#### Theme 
+
+ 
  ```bash
  progressIndicatorTheme: const ProgressIndicatorThemeData(
       linearMinHeight: 2.0,
@@ -511,10 +535,21 @@ List<Model> list = [];
   
  ```
 
+ ## 
+ <img align="left" width="300" height="full" src="https://github.com/afnanalmohd/task_flutterr/assets/53023171/31b31b7d-d988-497a-86ad-312db778f579"
+ alt="Badge" >
+
+<br>
 
 
-## Circular Progress Inictor
-### Theme 
+
+
+</br>
+
+ 
+#### Theme 
+
+
  ```bash
  progressIndicatorTheme: const ProgressIndicatorThemeData(
       linearMinHeight: 2.0,
@@ -554,7 +589,19 @@ List<Model> list = [];
    
  ```
 
-## Snack Bar
+ ## 
+ <img align="left" width="300" height="full" src="https://github.com/afnanalmohd/task_flutterr/assets/53023171/d215231a-94c8-41cd-add1-0ac90715575d"
+ alt="Badge" >
+
+<br>
+
+
+
+
+</br>
+
+ 
+#### Theme 
 
 We recommend using the 'SnackBarWidget' if you have only one design.
 
@@ -581,7 +628,19 @@ We recommend using the 'SnackBarWidget' if you have only one design.
 
 
 
-## Snack Bar
+ ## 
+ <img align="left" width="300" height="full" src="https://github.com/afnanalmohd/task_flutterr/assets/53023171/d215231a-94c8-41cd-add1-0ac90715575d"
+ alt="Badge" >
+
+<br>
+
+
+
+
+</br>
+
+ 
+#### Theme 
 
 We recommend using the "GlobalSnackBar" class throughout the entire project, especially if there are various designs for SnackBars 
 such as warning, error, and success messages.
