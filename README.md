@@ -169,8 +169,20 @@ OutlinedButton(
               ),
                    
  ```
-## Text Button 
-### Theme 
+
+
+
+## 
+ <img align="left" width="300" height="full" src="https://github.com/afnanalmohd/task_flutterr/assets/53023171/9a63ed74-55fe-48fd-8c52-345b0c804c82"
+ alt="Text Button " >
+
+<br>
+
+
+</br>
+
+ 
+#### Theme 
  ```bash
    textButtonTheme: TextButtonThemeData(
       style: TextButton.styleFrom(
@@ -188,9 +200,20 @@ TextButton(
                   ),
                 ),
  ```
+##
 
-## Floating Action Button
-### Theme 
+
+ <img align="left" width="300" height="full" src="https://github.com/afnanalmohd/task_flutterr/assets/53023171/ae5e2d25-e61f-4f3f-92f4-f9a0a64d31ed"
+ alt="Text Button " >
+
+<br>
+
+
+</br>
+
+ 
+#### Theme 
+
  ```bash
  floatingActionButtonTheme: FloatingActionButtonThemeData(
         backgroundColor: Colors.blue,
@@ -206,8 +229,21 @@ TextButton(
             ),
  ```
 
-## Extended Floating Action Button 
-### Theme 
+
+##
+
+
+ <img align="left" width="300" height="full" src="https://github.com/afnanalmohd/task_flutterr/assets/53023171/f903e828-d8de-4335-8a87-d20c9a9eed18"
+ alt="Text Button " >
+
+<br>
+
+
+</br>
+
+ 
+#### Theme 
+
  ```bash
  floatingActionButtonTheme: FloatingActionButtonThemeData(
         backgroundColor: Colors.blue,
@@ -225,8 +261,21 @@ TextButton(
             ),
  ```
 
-## Icon Button
-### Theme 
+##
+
+
+
+ <img align="left" width="300" height="full" src="https://github.com/afnanalmohd/task_flutterr/assets/53023171/ef42c587-05bc-4b3b-bbdb-149a70af578f"
+ alt="Text Button " >
+
+<br>
+
+
+</br>
+
+ 
+#### Theme 
+
  ```bash
               iconTheme: const IconThemeData(color: Colors.red),
               primaryIconTheme: const IconThemeData(color: Colors.blue),
@@ -244,9 +293,21 @@ TextButton(
               icon: const Icon(Icons.save),
             ),
  ```
+##
 
-## Segmented Button
-### Theme 
+
+
+ <img align="left" width="300" height="full" src="https://github.com/afnanalmohd/task_flutterr/assets/53023171/4b346c1d-ec9d-423c-9004-48c533d94dea"
+ alt="Text Button " >
+
+<br>
+
+
+</br>
+
+ 
+#### Theme 
+
  ```bash
  segmentedButtonTheme: SegmentedButtonThemeData(
      style: ButtonStyle(
@@ -286,13 +347,24 @@ TextButton(
 
                       );
                     })
-                  
-                  
-                  
-                  
+                               
  ```
-## Toggle Button
-### Theme 
+
+##
+
+
+
+ <img align="left" width="300" height="full" src="https://github.com/afnanalmohd/task_flutterr/assets/53023171/05e5b2a6-e6f2-450e-8f2e-f1587f7fd3d1 "
+ alt="Text Button " >
+
+<br>
+
+
+</br>
+
+ 
+#### Theme 
+
  ```bash
 toggleButtonsTheme: ToggleButtonsThemeData(
         color: blackColor,
