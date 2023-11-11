@@ -23,10 +23,12 @@
 
  -  [Actions](#action)
  -  [Communication](#Communication)
- - **Containment**.
- - **Navigation**.
- - **Selection**.
- - **Text Inputs**.
+ -  [Containment](#Containment)
+ -  [Navigation](#Navigation)
+ -  [Selection](#Selection)
+ -  [Text Inputs](#Text_Inputs)
+  
+
    
 
 
@@ -548,7 +550,8 @@ class GlobalSnackBar {
 }
  ```
 
-![3](https://github.com/The-Garage-Tech-Team/design_system_flutter/assets/53023171/d9f00fe3-d80d-4d45-ab71-9a4f2ee0f290)
+
+![Containment)]((https://github.com/The-Garage-Tech-Team/design_system_flutter/assets/53023171/d9f00fe3-d80d-4d45-ab71-9a4f2ee0f290)) <a id="#Containment)"></a>
 
 
 ## Alert Dialog
@@ -715,8 +718,8 @@ bottomSheetTheme: const BottomSheetThemeData(
            },
  ```
 
+![Navigation)]((https://github.com/The-Garage-Tech-Team/design_system_flutter/assets/53023171/2209d949-722d-42f6-bd0f-11141a3f55a7)) <a id="#Navigation))"></a>
 
-![Navigation](https://github.com/The-Garage-Tech-Team/design_system_flutter/assets/53023171/2209d949-722d-42f6-bd0f-11141a3f55a7)
 
 ## App Bar
 ### Theme 
@@ -966,8 +969,8 @@ DefaultTabController(
       ),
 ),
  ```
+![Selection))]((https://github.com/The-Garage-Tech-Team/design_system_flutter/assets/53023171/0707e29e-096a-47d8-8e13-93a94f906176)) <a id="#Selection)"></a>
 
-![Selection](https://github.com/The-Garage-Tech-Team/design_system_flutter/assets/53023171/0707e29e-096a-47d8-8e13-93a94f906176)
 
 ### Theme 
  ```bash
@@ -1277,7 +1280,7 @@ DropdownButton2(
  Controller"
  ```
 
-![TextInputs](https://github.com/The-Garage-Tech-Team/design_system_flutter/assets/53023171/41e417d9-66e6-4537-961d-683b59e66381)
+![Text_Inputs))]((https://github.com/The-Garage-Tech-Team/design_system_flutter/assets/53023171/0707e29e-096a-47d8-8e13-93a94f906176)) <a id="#Text_Inputs)"></a>
 
 # Text Inputs
 
