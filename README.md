@@ -481,7 +481,7 @@ List<Model> list = [];
  ```
 
  ## 
- <img align="left" width="300" height="full" src="https://github.com/afnanalmohd/task_flutterr/assets/53023171/8fcbc752-d4d4-47ff-9f6a-8cc62ee45cae"
+ <img align="left" width="450" height="full" src="https://github.com/afnanalmohd/task_flutterr/assets/53023171/8fcbc752-d4d4-47ff-9f6a-8cc62ee45cae"
  alt="Badge" >
 
 <br>
@@ -536,7 +536,7 @@ List<Model> list = [];
  ```
 
  ## 
- <img align="left" width="300" height="full" src="https://github.com/afnanalmohd/task_flutterr/assets/53023171/31b31b7d-d988-497a-86ad-312db778f579"
+ <img align="left" width="450" height="full" src="https://github.com/afnanalmohd/task_flutterr/assets/53023171/31b31b7d-d988-497a-86ad-312db778f579"
  alt="Badge" >
 
 <br>
@@ -629,10 +629,11 @@ We recommend using the 'SnackBarWidget' if you have only one design.
 
 
  ## 
- <img align="left" width="300" height="full" src="https://github.com/afnanalmohd/task_flutterr/assets/53023171/d215231a-94c8-41cd-add1-0ac90715575d"
+ <img align="left" width="300" height="full" src="https://github.com/afnanalmohd/task_flutterr/assets/53023171/253d99e1-f456-46e5-8a35-df96042deb21"
  alt="Badge" >
 
 <br>
+
 
 
 
