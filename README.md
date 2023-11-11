@@ -1181,7 +1181,7 @@ navigationDrawerTheme: NavigationDrawerThemeData(
  ```
 
 ## 
- <img align="left" width="200" height="full" src="https://github.com/afnanalmohd/task_flutterr/assets/53023171/2bbeb786-cb3e-4bbb-b96c-5c88f73f36f0"
+ <img align="left" width="280" height="full" src="https://github.com/afnanalmohd/task_flutterr/assets/53023171/2bbeb786-cb3e-4bbb-b96c-5c88f73f36f0"
  alt="Badge" >
 
 <br>
@@ -1241,7 +1241,7 @@ Row(
  ```
 
 ## 
- <img align="left" width="200" height="full" src="https://github.com/afnanalmohd/task_flutterr/assets/53023171/eb77991f-edd3-4b25-8148-25350023e349"
+ <img align="left" width="300" height="full" src="https://github.com/afnanalmohd/task_flutterr/assets/53023171/eb77991f-edd3-4b25-8148-25350023e349"
  alt="tabBarTheme" >
 
 <br>
