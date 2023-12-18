@@ -5,6 +5,7 @@
 # Offline and Caching Data in Flutter  
 <br>
 
+This guide will show you how to download and cache files using the Flutter Cache Manager.
 **Offline and Caching Data in Flutter** built using <a href="https://docs.flutter.dev/get-started/install"> Flutter</a>.
 and using <a href="https://pub.dev/packages/get">Getx</a> framework for state management.
  Additionally, The primary objective of writing.
