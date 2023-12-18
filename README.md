@@ -6,9 +6,8 @@
 <br>
 
 **Offline and Caching Data in Flutter** built using <a href="https://docs.flutter.dev/get-started/install"> Flutter</a>.
- The team used <a href="https://pub.dev/packages/get">Getx</a> framework for state management.
- Additionally, The primary objective of writing widget 
- content is to ensure it results in clean code that is easy to read, maintain, understand, and modify by following a structured and consistent format.
+and using <a href="https://pub.dev/packages/get">Getx</a> framework for state management.
+ Additionally, The primary objective of writing.
  
 
 <br>
