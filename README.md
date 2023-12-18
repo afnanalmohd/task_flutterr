@@ -34,7 +34,6 @@
 
 ![text_inputs](https://github.com/afnanalmohd/task_flutterr/assets/53023171/e2c451d8-df5e-4d9f-b40f-ea74e99e3593) <a id="text_inputs"></a>
 
-# Text Inputs
 
 
 ## 🦸‍♀️  SuperHero  
