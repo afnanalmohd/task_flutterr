@@ -104,6 +104,7 @@ Before we continue, I assume you have created a model class, a service class, an
 
 ### function Refresh
 
+A function Refresh to update the UI once the internet connection is restored.
 ```
   refreshData() async {
     await syncData();
