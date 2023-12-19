@@ -9,6 +9,7 @@ This guide will show you how to download and cache files using the Flutter Cache
 **Offline and Caching Data in Flutter** built using <a href="https://docs.flutter.dev/get-started/install"> Flutter</a>.
 and using <a href="https://pub.dev/packages/get">Getx</a> framework for state management.
  Additionally, The primary objective of writing.
+ Caching API responses is an essential feature for mobile app development. It allows the app to store previously fetched data and display it without having to fetch it again from the server, reducing network usage and improving app performance. In this tutorial, we will learn how to cache API response using Hive, a lightweight NoSQL database for Flutter, manage the app’s state using Bloc, a library that helps to manage the state of a Flutter app by separating the business logic from the presentation layer and display the cached data in our Flutter app.
  
 
 <br>
@@ -113,9 +114,8 @@ mbshir
 [![English](https://img.shields.io/badge/Language-English-yellow?style=for-the-badge)](README.md)
 
 
-## 🦸‍♀️  SuperHero  
+## 🦸‍♀️  written by 
 
- -  Afnan Almohammdi. 
 **Afnan Almohammadi**
   
 
