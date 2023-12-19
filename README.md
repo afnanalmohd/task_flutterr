@@ -77,7 +77,7 @@ mbshir
 
 Before we begin, I'm assuming you are programmer and can handle with development environment.
 
-Open the pubspec.yaml file located in the root of your project, and add the following line under the dependencies section:
+Open the ```pubspec.yaml``` file located in the root of your project, and add the following line under the dependencies section:
 
 ```
   get_storage: ^2.1.1
