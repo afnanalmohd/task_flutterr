@@ -10,18 +10,8 @@ and using <a href="https://pub.dev/packages/get">Getx</a> framework for state ma
 
 <br>
 
-##  🗺️ Contents 
 
-**Material Components** are a collection of UI widgets and design guidelines, divided into **six components**:
-</b></b>
-
-
-
-
-
-
-
-## 🚀  Getting Started Cashing data In Offline Mood
+## 🚀  Getting Started 
 
 Before installing , make sure you have the following prerequisites installed:
 
@@ -83,9 +73,36 @@ mbshir
  All the <a href="https://github.com/The-Garage-Tech-Team/mbshir/tree/main/lib/feature">features</a> in the app are organized into folders named after each feature. Each of these folders contains related files, including controller, model, service, screen, and widget
 
 
+## Step 1: Add Dependencies in Yaml 
+
+
+
+```
+  get_storage: ^2.1.1
+  connectivity_plus: ^5.0.2
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## 💼 Technologies  
-
 
 | library  |         Usage 
 | :-------- | :------------------------- |
