@@ -73,9 +73,11 @@ mbshir
  All the <a href="https://github.com/The-Garage-Tech-Team/mbshir/tree/main/lib/feature">features</a> in the app are organized into folders named after each feature. Each of these folders contains related files, including controller, model, service, screen, and widget
 
 
-## Step 1: Add Dependencies in Yaml 
+## Step 1: Add Dependencies 
 
+Before we begin, I'm assuming you are programmer and can handle with development environment.
 
+Open the pubspec.yaml file located in the root of your project, and add the following line under the dependencies section:
 
 ```
   get_storage: ^2.1.1
