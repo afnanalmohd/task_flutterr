@@ -102,7 +102,7 @@ To initialize get storage, we need to call ```GetStorage().init``` in the main f
 
 Before we continue, I assume you have created a model class, a service class, and a screen class and are fetching data from the API. Now, let’s create a controller class to handle the business logic of the app. I have created three functions to handle caching and synchronizing data as follows:
 
-### a. function Refresh
+### a. function refresh
 
 A function Refresh to update the UI once the internet connection is restored.
 ```
@@ -115,8 +115,25 @@ A function Refresh to update the UI once the internet connection is restored.
 ### b. function synchronizing data
 
 ```
-  refreshData() async {
-    await syncData();
+   syncData() async {
+    try {
+      isLoading = true;
+      update();
+      var connectivityResult = await Connectivity().checkConnectivity();
+      if (connectivityResult == ConnectivityResult.none) {
+        final cachedWeather = getStorage.read('cachedWeather');
+        if (cachedWeather != null) {
+          weather = cachedWeather;
+          update();
+        }
+      } else {
+        await getAllWeather();
+      }
+    }
+    finally {
+      isLoading = false;
+      update();
+    }
   }
 ```
 
@@ -125,8 +142,27 @@ A function Refresh to update the UI once the internet connection is restored.
 ### c. function get data 
 
 ```
-  refreshData() async {
-    await syncData();
+  getAllWeather() async {
+    try {
+      await service.getAllWeather(
+        onDone: (value) {
+          weather = value;
+          getStorage.write('cachedWeather', weather);
+          update();
+        },
+        onError: (String error) {
+          final cachedWeather = getStorage.read('cachedWeather');
+          if (cachedWeather != null) {
+            weather = cachedWeather;
+            update();
+          }
+        },
+      );
+    }
+    finally {
+      isLoading = false;
+      update();
+    }
   }
 ```
 
