@@ -21,18 +21,11 @@ and using <a href="https://pub.dev/packages/get">Getx</a> framework for state ma
 
 
 
- -  [Actions](#action) : Interactive elements which trigger actions when clicked .
- -  [Communication](#communication) : Used to convey information to the user.
- -  [Containment](#containment) : Components for grouping  in defined area.
- -  [Navigation](#navigation) : User movement within the application.
- -  [Selection](#selection) : That allow users to make decisions .
- -  [Text Inputs](#text_inputs) :Elements for entering text .
-  
 
 
 
 
-## 🚀  Getting Started  mbshir 
+## 🚀  Getting Started  Cashing data In Offline Mood
 
 Before installing , make sure you have the following prerequisites installed:
 
@@ -100,12 +93,9 @@ mbshir
 
 | library  |         Usage 
 | :-------- | :------------------------- |
-| <a href="https://pub.dev/packages/get">Getx</a> |  State management , navigation, dependency management |
-| <a href="https://pub.dev/packages/timer_count_down">Timer Count Down</a> | Highly customizable countdown and onFinished callbacks |
-| <a href="https://pub.dev/packages/stop_watch_timer">Stop Watch Timer</a> | Simple CountUp / CountDown timer |
-| <a href="https://pub.dev/packages/lottie">Lottie</a>| Animations |
-| <a href="https://pub.dev/packages/google_fonts">Google Fonts</a>|  fonts from Google|
-
+| <a href="https://pub.dev/packages/get">Getx</a> |  State management , Navigation, Dependency Management |
+| <a href="https://pub.dev/packages/timer_count_down">Get Storage</a> |Store and Retrieve Data in Memory|
+| <a href="https://pub.dev/packages/stop_watch_timer">Connectivity Plus</a> | Discover Network Connectivity |
 
 
 
