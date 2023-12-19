@@ -98,6 +98,10 @@ To initialize get storage, we need to call ```GetStorage().init``` in the main f
 }
 ```
 
+## Step 3: Controller Class for  business logic
+
+ Before we continue,I assume you have created a model class, a service class, and a screen class, and are fetching data from the API.
+ 
 
 
 
