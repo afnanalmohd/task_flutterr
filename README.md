@@ -121,6 +121,8 @@ A function Refresh to update the UI once the internet connection is restored.
 
 ### b. function synchronizing data
 
+
+
 ```
    syncData() async {
     try {
