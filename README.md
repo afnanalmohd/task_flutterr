@@ -58,17 +58,17 @@ getStorage
 
 
 ```
-### Common:
+### a. Common:
 
  <a href="https://github.com/The-Garage-Tech-Team/mbshir/tree/ba8951b81e92183d62e80e72675f5c24207888df/lib/common"> Common file </a> is directory typically contains code shared throughout the application. Common elements found here include utility classes and custom widgets.
 
 
-### Core
+### b. Core
 
  <a href="https://github.com/The-Garage-Tech-Team/mbshir/tree/ba8951b81e92183d62e80e72675f5c24207888df/lib/core">Core file</a> directory generally holds foundational code and essential business logic for the application. This may encompass functionalities like binding, routing, localization, themes, and other critical components that are used throughout the app. 
 
 
-### Features
+### c. Features
 
  All the <a href="https://github.com/The-Garage-Tech-Team/mbshir/tree/main/lib/feature">features</a> in the app are organized into folders named after each feature. Each of these folders contains related files, including controller, model, service, screen, and widget.
 
@@ -86,6 +86,7 @@ Open the ```pubspec.yaml``` file located in the root of your project, and add th
   connectivity_plus: ^5.0.2
 ```
 
+<br>
 
 
 ## Step 2: Initialize Get Storage
@@ -100,9 +101,13 @@ To initialize get storage, we need to call ```GetStorage().init``` in the main f
 }
 ```
 
+<br>
+
 ## Step 3: Controller Class
 
 Before we continue, I assume you have created a model class, a service class, and a screen class and are fetching data from the API. Now, let’s create a controller class to handle the business logic of the app. I have created three functions to handle caching and synchronizing data as follows:
+
+<br>
 
 ### a. function refresh
 
@@ -171,6 +176,7 @@ A function Refresh to update the UI once the internet connection is restored.
 
 
 
+<br>
 
 
 ## 💼 Technologies  
