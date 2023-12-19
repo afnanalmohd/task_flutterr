@@ -86,7 +86,7 @@ Open the ```pubspec.yaml``` file located in the root of your project, and add th
 
 
 
-##Step 2: Initialize get_storage
+## Step 2: Initialize get storage
 
 To initialize get storage, we need to call GetStorage().init in the main function.
 
