@@ -31,7 +31,7 @@ Once you have the prerequisites installed, follow these steps to install:
 This Project follows the Model-View-Controller (MVC) design pattern. The primary directory structure consists of three main folders: Common, Core, and Features.
 
 ```bash
-mbshir
+getStorage
 ├─ ios/
 ├─ android/
 ├─ assets/
