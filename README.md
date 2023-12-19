@@ -65,12 +65,12 @@ getStorage
 
 ### Core
 
- <a href="https://github.com/The-Garage-Tech-Team/mbshir/tree/ba8951b81e92183d62e80e72675f5c24207888df/lib/core">Core file</a> directory generally holds foundational code and essential business logic for the application. This may encompass functionalities like binding, routing, localization, themes, and other critical components that are used throughout the app 
+ <a href="https://github.com/The-Garage-Tech-Team/mbshir/tree/ba8951b81e92183d62e80e72675f5c24207888df/lib/core">Core file</a> directory generally holds foundational code and essential business logic for the application. This may encompass functionalities like binding, routing, localization, themes, and other critical components that are used throughout the app. 
 
 
 ### Features
 
- All the <a href="https://github.com/The-Garage-Tech-Team/mbshir/tree/main/lib/feature">features</a> in the app are organized into folders named after each feature. Each of these folders contains related files, including controller, model, service, screen, and widget
+ All the <a href="https://github.com/The-Garage-Tech-Team/mbshir/tree/main/lib/feature">features</a> in the app are organized into folders named after each feature. Each of these folders contains related files, including controller, model, service, screen, and widget.
 
 
 ## Step 1: Add Dependencies 
@@ -88,8 +88,15 @@ Open the ```pubspec.yaml``` file located in the root of your project, and add th
 
 ## Step 2: Initialize get storage
 
-To initialize get storage, we need to call GetStorage().init in the main function.
+To initialize get storage, we need to call ```GetStorage().init ```in the main function.
 
+```
+ Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await GetStorage.init();
+  runApp(const MyApp());
+}
+```
 
 
 
