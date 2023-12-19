@@ -2,7 +2,7 @@
 <img align="left" width="70" height="full" src="https://github.com/The-Garage-Tech-Team/design_system_flutter/assets/53023171/f9c41919-764e-4727-913b-e7f2f7fccdec" alt="flutterlogo" >
 
 
-# Offline and Caching Data in Flutter  
+# Offline Mood and Caching Data in Flutter  
 <br>
 
 This guide will show you how to download and cache files using the Flutter Cache Manager.
@@ -25,7 +25,7 @@ and using <a href="https://pub.dev/packages/get">Getx</a> framework for state ma
 
 
 
-## 🚀  Getting Started  Cashing data In Offline Mood
+## 🚀  Getting Started Cashing data In Offline Mood
 
 Before installing , make sure you have the following prerequisites installed:
 
