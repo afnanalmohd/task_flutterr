@@ -77,7 +77,7 @@ getStorage
 
 Before we begin, I'm assuming you are programmer and can handle with development environment.
 
-Open the ```pubspec.yaml``` file located in the root of your project, and add the following line under the dependencies section:
+Open the ```pubspec.yaml``` file located in the root of your project, and add the following line under the dependencies section.
 
 ```
   get_storage: ^2.1.1
@@ -88,7 +88,7 @@ Open the ```pubspec.yaml``` file located in the root of your project, and add th
 
 ## Step 2: Initialize Get Storage
 
-To initialize get storage, we need to call ```GetStorage().init ```in the main function.
+To initialize get storage, we need to call ```GetStorage().init``` in the main function.
 
 ```
  Future<void> main() async {
