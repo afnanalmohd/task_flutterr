@@ -2,15 +2,13 @@
 <img align="left" width="70" height="full" src="https://github.com/The-Garage-Tech-Team/design_system_flutter/assets/53023171/f9c41919-764e-4727-913b-e7f2f7fccdec" alt="flutterlogo" >
 
 
-# Offline Mood and Caching Data in Flutter  
+# Offline Mood and Caching Data in Flutter   
 <br>
 
-This guide will show you how to download and cache files using the Flutter Cache Manager.
+This guide will walk you through the process of storing data fetched from a remote API, making sure it can be shown even without an active internet connection. Additionally, it includes syncing data when the connection is restored.
 **Offline and Caching Data in Flutter** built using <a href="https://docs.flutter.dev/get-started/install"> Flutter</a>.
 and using <a href="https://pub.dev/packages/get">Getx</a> framework for state management.
- Additionally, The primary objective of writing.
- Caching API responses is an essential feature for mobile app development. It allows the app to store previously fetched data and display it without having to fetch it again from the server, reducing network usage and improving app performance. In this tutorial, we will learn how to cache API response using Hive, a lightweight NoSQL database for Flutter, manage the app’s state using Bloc, a library that helps to manage the state of a Flutter app by separating the business logic from the presentation layer and display the cached data in our Flutter app.
- 
+
 
 <br>
 
