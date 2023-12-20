@@ -175,10 +175,46 @@ This function is designed to retrieve data either from a remote server or locall
   }
 ```
 
+## Step 4: Display Cached Data in screen 
 
+Now that we have cached the data in getStorage, we can display it in our app even when offline or when the API is not accessible.
+Call the ```syncData```function to check the internet status. In this UI, there are three cases: first, read from getStorage and display it; second, if there is no internet, cache the data; finally, when the internet is available, update the data.
 
+```
+    WeatherController().syncData();
+    return GetBuilder<WeatherController>(
+      builder: (controller) {
+        if (controller.weather == null) {
+          final cachedWeather = controller.getStorage.read('cachedWeather');
+          if (cachedWeather != null) {
+            return CityWidget();
+          }
+          else {
+            return const Text("No internet and no cached data");
+          }
+        }
+        else {
+          return CityWidget();
+        }
+      },
+    );
+  }
 
+```
 <br>
+
+
+## Note in using simulator
+
+Sometimes, the ```Connectivity Plus``` package may cause issues with CocoaPods. I recommend the following:
+
+1- Navigate to the /ios folder inside your Flutter project.
+2- Locate the ```Podfile.lock``` file and uncomment the line ```platform :ios, '12.0' ```(usually in line 2).
+3- Run ``` flutter clean```.
+4- Run ``` flutter run```.
+
+
+
 
 
 ## 💼 Technologies  
