@@ -88,7 +88,7 @@ getStorage
 <br>
 
 
-## Step 1: Add Dependencies <a id="#dependencies"></a>
+## Step 1: Add Dependencies <a id="dependencies"></a>
 
 Open the ```pubspec.yaml``` file located in the root of your project, and add the following line under the dependencies section.
 
