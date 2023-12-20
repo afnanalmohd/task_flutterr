@@ -100,7 +100,7 @@ Open the ```pubspec.yaml``` file located in the root of your project, and add th
 <br>
 
 
-## Step 2: Initialize Get Storage <a id="#initialize"></a>
+## Step 2: Initialize Get Storage  <a id="initialize"></a>
 
 To initialize get storage, we need to call ```GetStorage().init``` in the main function.
 
@@ -223,8 +223,8 @@ Sometimes, the ```Connectivity Plus``` package may cause issues with CocoaPods. 
 
 1. Navigate to the /ios folder inside your Flutter project.
 2. Locate the ```Podfile.lock``` file and uncomment the line ```platform :ios, '12.0' ```(usually in line 2).
-3. Run ``` flutter clean```.
-4. Run ``` flutter run```.
+3. Run ```flutter clean```.
+4. Run ```flutter run```.
 
 
 
