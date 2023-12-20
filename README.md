@@ -23,8 +23,7 @@ and using <a href="https://pub.dev/packages/get">Getx</a> framework for state ma
 
 
 
-![ ##🚀 Getting Started ]<a id="started"></a>
-## 🚀  Getting Started 
+## 🚀  Getting Started <a id="started"></a>
 
 Before installing , make sure you have the following prerequisites installed:
 
