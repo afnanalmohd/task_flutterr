@@ -10,7 +10,20 @@ and using <a href="https://pub.dev/packages/get">Getx</a> framework for state ma
 
 <br>
 
+##  Contents
+- [Getting Started](#started). 
+- [Communication](#communication).
+- [Containment](#containment).
+- [Navigation](#navigation).
+- [Selection](#selection).
+- [Text Inputs](#text_inputs).
 
+
+
+
+
+
+![ ##🚀 Getting Started ]<a id="started"></a>
 ## 🚀  Getting Started 
 
 Before installing , make sure you have the following prerequisites installed:
