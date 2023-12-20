@@ -118,8 +118,8 @@ A function refresh to update the UI once the internet connection is restored.
 
 ### b. function synchronizing data
 
-A funtion syncData  main purpose from this function to check the internet connection ,in this function i used  ``` Connectivity Plus ``` packge to ckeck the internet stutes .
-
+The main purpose of the syncData function is to check the internet connection. In this function, the``` Connectivity Plus``` package is utilized to determine the network connectivity status.
+Initially, the function checks the internet connection. If the connection is off, it displays data from the local Git storage. Otherwise, it fetches and displays data from the ```getAllWeather``` function.
 
 ```
    syncData() async {
