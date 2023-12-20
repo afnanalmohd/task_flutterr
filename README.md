@@ -106,12 +106,11 @@ To initialize get storage, we need to call ```GetStorage().init``` in the main f
 ## Step 3: Controller Class
 
 Before we continue, I assume you have created a model class, a service class, and a screen class and are fetching data from the API. Now, let’s create a controller class to handle the business logic of the app. I have created three functions to handle caching and synchronizing data as follows:
-
 <br>
 
 ### a. function refresh
 
-A function Refresh to update the UI once the internet connection is restored.
+A function refresh to update the UI once the internet connection is restored.
 ```
   refreshData() async {
     await syncData();
@@ -121,6 +120,7 @@ A function Refresh to update the UI once the internet connection is restored.
 
 ### b. function synchronizing data
 
+A funtion syncData  main purpose from this function to check the internet connection ,in this function i used  ``` Connectivity Plus ``` packge to ckeck the internet stutes .
 
 
 ```
